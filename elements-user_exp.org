@@ -1,0 +1,86 @@
+# -*- mode: org; fill-column: 79; -*-
+
+#+TITLE: Outline of /The Elements of User Experience/
+#+SUBTITLE: User-Centered Design for the Web and Beyond (2nd Edition)
+#+AUTHOR: Jess James Garrett
+#+CREATOR: WLHarvey4
+#+DATE: <2019-01-11 Fri 12:14>
+
+#+TEXINFO: @insertcopying
+
+* Introduction
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+** About the Author
+   {{{AUTHOR}}}:
+   - Is a founder of Adaptive Path, a user experience consultancy based in S.F.;
+   - Has made contributions to the field of user experience include the Visual
+     Vocabulary, an open notation system for information architecture
+     documentation;
+   - Has a personal web site at [[http://www.jjg.net]], is one of the world's most
+     popular destinations for information architecture resources;
+
+** To the Second Edition
+   This book is no longer just about web sites.  Overall, the themes, concepts,
+   and principles apply to products and services of all kinds.
+
+   The field of user experience has broadened its horizons.  Practitioners now
+   regularly talk about the impact and value of user experience design in areas
+   far beyond the limited context of the Web or even screen-based interactive
+   applications that dominated the conversation back when this book was first
+   written.
+
+   The Web is still central to the book, if only to acknowledge the model's
+   roots in that medium.  But this book doesn't require an insider's knowledge
+   of how Web development happens---so even if you don't create Web sites, you
+   should be able to see how to apply these ideas in your own work.
+
+** To the First Edition
+   This is not a how-to book.  There are many books out there that explain how
+   Web sites get made.  This is not one of them.
+
+   This is not a book about technology.  There is not a single line of code to
+   be found between these covers.
+
+   This is not a book of answers.  Instead, this book is about asking the right
+   questions.
+
+   This book will tell you what you need to know before you go read those other
+   books.  If you need the big picture, if you need to understand the context
+   for the decisions that user experience practitioners make, this book is for
+   you.
+
+   This book is designed to be read easily in just a few hours.  If you're a
+   newcomer to the world of user experience, this book will give you the
+   foundation you need.  If you're already familiar with the methods and
+   concerns of the field of user experience, this book will help you
+   communicate them  more effectively to the people you work with.
+* User Experience and Why It Matters
+* Meet the Elements
+* The Strategy Plane
+* The Scope Plane
+* The Structure Plane
+* The Skeleton Plane
+* The Surface Plane
+* The Elements Applied
+* INDEX
+  :PROPERTIES:
+  :INDEX:    cp
+  :END:
+* COPYING
+  :PROPERTIES:
+  :COPYING:  t
+  :END:
+  @@texinfo:@b{@@The Elements of User Experience: User-Centered Design for the
+  Web and Beyond@@texinfo:}@@
+
+  \copy 2011 {{{AUTHOR}}}
+* EXPORT SETTINGS                                                  :noexport:
+#+TEXINFO_CLASS: info
+#+TEXINFO_HEADER:
+#+TEXINFO_POST_HEADER:
+#+TEXINFO_DIR_CATEGORY: Web Development
+#+TEXINFO_DIR_TITLE: Elements of User Experience
+#+TEXINFO_DIR_DESC: User-Centered design for the web
