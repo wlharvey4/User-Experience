@@ -42,6 +42,16 @@ Introduction
 * To the Second Edition::
 * To the First Edition::
 
+User Experience and Why It Matters
+
+* Everyday Miseries::
+* Introducing User Experience::
+* From Product Design to User Experience Design::
+* Designing (for) Experience---Use Matters::
+* User Experience and the Web::
+* Good User Exerience is Good Business::
+* Minding Your Users::
+
 
 
 File: elements-user_exp.info,  Node: Introduction,  Next: User Experience and Why It Matters,  Prev: Top,  Up: Top
@@ -124,6 +134,308 @@ File: elements-user_exp.info,  Node: User Experience and Why It Matters,  Next: 
 1 User Experience and Why It Matters
 ************************************
 
+Products and services are made by people and someone, somewhere should
+get the credit when they work well for us—or get the blame when they
+don’t.
+
+* Menu:
+
+* Everyday Miseries::
+* Introducing User Experience::
+* From Product Design to User Experience Design::
+* Designing (for) Experience---Use Matters::
+* User Experience and the Web::
+* Good User Exerience is Good Business::
+* Minding Your Users::
+
+
+File: elements-user_exp.info,  Node: Everyday Miseries,  Next: Introducing User Experience,  Up: User Experience and Why It Matters
+
+1.1 Everyday Miseries
+=====================
+
+Everyone, every once in a while, has one of those days.
+
+   ...
+
+
+File: elements-user_exp.info,  Node: Introducing User Experience,  Next: From Product Design to User Experience Design,  Prev: Everyday Miseries,  Up: User Experience and Why It Matters
+
+1.2 Introducing User Experience
+===============================
+
+   • The accident
+   • The register
+   • The pump
+   • The coffeemaker
+   • The Clock
+
+   In short, every one of the previous cases of “bad luck” could have
+been avoided had someone made different choices in designing a product
+or service.  These examples all demonstrate a lack of attention to the
+*user experience*: the experience the product creates for the people who
+use it in the real world.  When a product is being developed, people pay
+a great deal of attention to what it does.  User experience is the
+other, often overlooked, side of the equation—how it works—that can
+often make the difference between a successful product and a failure.
+
+   User experience is not about the inner workings of a product or
+service.  User experience is about how it works on the outside, where a
+person comes into contact with it.  When someone asks you what it’s like
+to use a product or service, they’re asking about the user experience.
+Is it hard to do simple things?  Is it easy to figure out?  How does it
+feel to interact with the product?
+
+   That interaction often involves pushing a lot of buttons, as in the
+case of technology products such as alarm clocks, coffeemakers, or cash
+registers.  Sometimes its just a matter of simply physical mechanism,
+such as the gas cap on your car.  However, every product that is used by
+someone creates a user experience: books, ketchup bottles, reclining
+armchairs, cardigan sweaters.
+
+   For any kind of product or service, its the little things that count.
+Having a button click when you push it down doesn’t seem like much, but
+when that click makes the difference between getting coffee and not
+getting coffee, it matters a great deal.  Even if you never realized
+that the design of that button was causing you trouble, how would you
+feel about a coffeemaker that you were able to use successfully only
+party of the time?  How would you feel about the manufacturer?  Would
+you buy another product from that company in the future?  Probably not.
+Thus, for want of a button that clicks, a customer is lost.
+
+
+File: elements-user_exp.info,  Node: From Product Design to User Experience Design,  Next: Designing (for) Experience---Use Matters,  Prev: Introducing User Experience,  Up: User Experience and Why It Matters
+
+1.3 From Product Design to User Experience Design
+=================================================
+
+When most people think about product design, they often think of it in
+terms of aesthetic appeal: a well-designed product is one that looks
+good to the eye and feels good to the touch.  Whether it’s the curve of
+a sports car’s body or the texture of a power drill’s grip, the
+aesthetic dimension of product design is a sure attention-grabber.
+
+   Another common way people think about product design is in functional
+terms: A well-designed product is one that does what it promises to do.
+And a badly-designed product is one that somehow doesn’t: scissors that
+don’t cut even though the blades are sharp, a pen that doesn’t write
+even though it’s full of ink, a printer that constantly jams.
+
+   All of these can certainly be failures of design.  These products
+might look great and work well functionally, but designing products with
+the user experience as an explicit oucome means looking beyond the
+functional or aesthetic.
+
+   #+cindex; product development Some people responsible for creating
+products may not think in terms of design at all.  For them, the process
+of creating a product is about development: steadily builidng up and
+refining the features and functionalities of the product until they add
+up to something viable to the marketplace.
+
+   In this view, the design of a product is dictated by its
+functionality—or, as designers sometimes put it, “form follows
+function.” This approach makes complete sense for the inner workings of
+a product, the parts concealed from a user.  But when it comes to teh
+parts of a product that are user-facing—the buttons, displays, labels,
+and so forth—the “correct” form isn’t dictated by functionality at all.
+Instead, its dictated by the psychology and behavior of the users
+themselves.
+
+   User experience design often deals with questions of context.
+Aesthetic design makes ure the button on the coffeemaker is an appealing
+shape and texture.  Functional design makes sure it triggers the
+appropriate action on the device.  User experience design makes sure the
+aesthetic and functional aspects of the button work in the context of
+the rest of the product, asking questions like, “Is the button too small
+for such an important function?” User experience design also makes sure
+the button works in the context of what the user is trying to
+accomplish, asking such quesstions like, “Is the button in the right
+place relative to the other controls the user would be using at the same
+time?”
+
+
+File: elements-user_exp.info,  Node: Designing (for) Experience---Use Matters,  Next: User Experience and the Web,  Prev: From Product Design to User Experience Design,  Up: User Experience and Why It Matters
+
+1.4 Designing (for) Experience—Use Matters
+==========================================
+
+What’s the difference between desigining a product and designing a user
+experience?  After all, every product intended for humans has a user,
+and every time a product is used, it delivers an experience.  The
+product can fail to deliver a satisfactory experience.
+
+   Manufacturers tend not to employ user experience designers.  In
+simple cases, the requirements to deliver a successful user experience
+are built into the definition of the product itself.
+
+   With more complex products, the requirements to deliver a successful
+user experience are independent of the definition of the product.
+
+   And the more complex a product is, the more difficult it becomes to
+identify exactly how to deliver a successful experience to the user.
+Each additional feature, function, or step in the process of using a
+product creates another opportunity for the experience to fall short.
+As a result, the process of creating a successful product has to be
+quite different.  That’s where product design has to be supported by
+user experience design.
+
+
+File: elements-user_exp.info,  Node: User Experience and the Web,  Next: Good User Exerience is Good Business,  Prev: Designing (for) Experience---Use Matters,  Up: User Experience and Why It Matters
+
+1.5 User Experience and the Web
+===============================
+
+User experience is vital to all kinds of products and services.  This
+book is primarily about the user experience of one particular kind of
+product: Web sites.  (_Site_ here refers to both content-oriented Web
+products and interactive Web applications.)
+
+   On the Web, user experience becomes even more important than it is
+for other kinds of products.  The lessons we’ve learned from creating
+user experience on the Web can be applied far beyond its boundaries.
+
+   Web sites are complicated pieces of technology, and something funny
+happens when people have trouble using complicated pieces of technology:
+They blame themselves.  They feel like they must have done something
+wrong.  They feel like they weren’t paying enough attention.  They feel
+stupid.  Sure, it’s irrational.  After all, it’s not their fault the
+site doesn’t work the wey they expect it to.  But they feel stupid
+anyway.  And if you intend to drive people away from your site, it’s
+hard to imagine a more effective approach than making them feel stupid
+when they use it.
+
+   Regardless of the type of site, in virtually every case, a Web site
+is a self-service product.  There is no instruction manual to read
+beforehand, no training seminar to attend, no customer service
+representative to help guide the user through the site.  There is only
+the user, facing the site alone with only her wits and personal
+experience to guide her.
+
+   It’s bad enough that she’s been stuck in the position of having to
+figure out the site on her own.  The fact that most sites don’t even
+acknowledge her helpless condition only makes matters worse., Despite
+the vital strategic importance of user experience to the success of a
+Web site, the simple matter of understanding what people want and need
+has been a low priority for most of the history of the medium.
+
+   If user experience is such a vital part of any Web site, why is it so
+often neglected in the development process?  Many Web sites are built
+with the idea that being first to market is the key to success,.  In the
+earliest days of the Web, sites like Yahoo!  built early leads that
+later competitors struggled to overcome.  Established companies raced to
+set up Web sites, determined not to be perceived as falling behind the
+times.  But in most cases, companies considered merelly having deployed
+the site a great accomplishment; whether the site actually worked for
+people was, at best, an afterthought.
+
+   To gain market share against these first-movers, competitors often
+add more and more content and functionality in hopes of drawing in new
+customers.  This race to cram more features into products is hardly
+unique to the Web.
+
+   Having more features, however, turns out to be only a temporary
+source of competitive advantage.  With the added complexity that comes
+with ever-expanding feature set, sites become increasingly unwieldy,
+hard to use, and unappealing to the very first-timers they are supposed
+to draw in.  And still, many organizations pay little attention to what
+users like, find valuable, or are really able to use.
+
+   More and more businesses have now come to recognize that providing a
+quality user experience is an essential, sustainable competitive
+advantage.  It is user experience that forms the customer’s impression
+of a company’s offerings; it is user experience that differentiates a
+company from its competitors; and it is user experience that determines
+whether your customer will ever come back.
+
+
+File: elements-user_exp.info,  Node: Good User Exerience is Good Business,  Next: Minding Your Users,  Prev: User Experience and the Web,  Up: User Experience and Why It Matters
+
+1.6 Good User Exerience is Good Business
+========================================
+
+#+cindex; effective communication If your site consists of what Web pros
+call _content_—that is, information—then one of the main goals of your
+site is to communicate that information as effectively as possible.
+It’s not enough just to put it out there.  It has be presented in a way
+that helps people absorb it and understand it.  Otherwise, the user
+might not ever find out that you offer the service or product they’re
+looking for.  And even if they do manage to find that information
+they’re likely to draw the conclusion that if your site is difficult to
+work with, your company probably is as well.
+
+   If your site is a Web-based application that people can use to
+accomplish certain task, effective communication is a key factor in the
+success of your product.  The world’s most powerful functionality
+falters and fails if users can’t figure out how to make it work.
+
+   Simply put, if your users have a bad experience, they won’t come
+back.  If they have an OK experience with your site but a better
+experience with your competitor’s site, they’ll go back to that
+competitor, not you.  Features and functions always matter, but user
+experience has a far greater effect on customer loyalty.  All of your
+sophisticated technology and brand messaging won’t bring those customers
+back a second time.  A good user experience will—and you don’t get much
+of a second chance to get it right.
+
+   Customer loyalty isn’t the only way that focusing on the user
+experience of your site can pay off.  Businesses with an eye on the
+bottom line want to know about the *return on investment*, or *ROI*. ROI
+is usually measured in terms of money: For every dollar you spend, how
+many dollars of value are you getting back?  That’s the ROI. But return
+on investment does not have to be expressed in strictly monetary terms.
+All you need is a measurement that shows that your money going out
+translates into value for your company.
+
+   One common measure of return on investment is *conversion rate*.  Any
+time you want to encourage your customers to take the next step in
+building a relationship with you—whether that involves something as
+complex as customizing the site to their preferences or as simple as
+signing up to receive an e-mail newsletter—there’s a conversion rate you
+can measure.  By keeping track of what percentage of users you convert
+to the next level, you can measure how effectively your site is meeting
+your business goals.
+
+   #+cindexz; work faster Any user experience effoert aims to increase
+efficiency.  This comes in two key forms: helping people work faster and
+helping them make fewer mistakes.  Improving the efficiency of the tools
+you use improves the productivity of the business as a whole.  The less
+time it takes to complete any given task, the more you can get done in a
+day.  In keeping with the old notion that time is money, saving your
+employees time translates direclty into saving your business money.
+
+   People like their jobs more when their tools are natural and easy to
+use, not frustrating and needlessly complex.
+
+
+File: elements-user_exp.info,  Node: Minding Your Users,  Prev: Good User Exerience is Good Business,  Up: User Experience and Why It Matters
+
+1.7 Minding Your Users
+======================
+
+The practice of creating engaging, efficient user experience is called
+*user-centered design*.  The concept of user-centered design is very
+simple: Take the user into account every step of the way as you develop
+your product.  The implications of this simple concept are surprisinly
+complex.
+
+   Everything the user experiences should be the result of a conscious
+decision on your part.  Realistically, you might have to make a
+compromise here and there because of the time or expense involved in
+creating a better solution.  But a user-centered design process ensures
+that those compromises don’t happen by accident.  By thinking about the
+user experience, breaking it down into its component elements, and
+looking at it from several perspectives, you can ensure that you know
+all the ramifications of your decisions.
+
+   The biggest reason user experience should matter to you is that it
+matters to your users.  if you don’t provide them with a positive
+experience, they won’t use your product.  And without users, all you’ve
+got is a dusty Web serverr somewhere, idly waiting to fulfill a request
+that will never come.  For the users who do come, you must set out to
+provide them with an experience that is cohesive, intuitive, and maybe
+even pleasurable—an experience in which everything works the way it
+should.
+
 
 File: elements-user_exp.info,  Node: Meet the Elements,  Next: The Strategy Plane,  Prev: User Experience and Why It Matters,  Up: Top
 
@@ -172,23 +484,106 @@ File: elements-user_exp.info,  Node: INDEX,  Prev: The Elements Applied,  Up: To
 INDEX
 *****
 
+ [index ]
+* Menu:
+
+* acknowledge user experience:           User Experience and the Web.
+                                                               (line 32)
+* aesthetic appeal:                      From Product Design to User Experience Design.
+                                                               (line  6)
+* behavior:                              From Product Design to User Experience Design.
+                                                               (line 29)
+* complex products, user experience independent: Designing (for) Experience---Use Matters.
+                                                               (line 15)
+* content and functionality glut:        User Experience and the Web.
+                                                               (line 49)
+* content, information:                  Good User Exerience is Good Business.
+                                                               (line  6)
+* context:                               From Product Design to User Experience Design.
+                                                               (line 38)
+* conversion rate, ROI:                  Good User Exerience is Good Business.
+                                                               (line 39)
+* decisions, consciously made:           Minding Your Users.   (line 12)
+* design, product vs user experience:    Designing (for) Experience---Use Matters.
+                                                               (line  6)
+* efficiency, increase:                  Good User Exerience is Good Business.
+                                                               (line 48)
+* form follows function:                 From Product Design to User Experience Design.
+                                                               (line 29)
+* functional design:                     From Product Design to User Experience Design.
+                                                               (line 12)
+* informationm, content:                 Good User Exerience is Good Business.
+                                                               (line  6)
+* loyalty:                               Good User Exerience is Good Business.
+                                                               (line 21)
+* mistakes, make fewer:                  Good User Exerience is Good Business.
+                                                               (line 48)
+* more features:                         User Experience and the Web.
+                                                               (line 49)
+* product design:                        From Product Design to User Experience Design.
+                                                               (line  6)
+* psychology:                            From Product Design to User Experience Design.
+                                                               (line 29)
+* quality user experience:               User Experience and the Web.
+                                                               (line 61)
+* return on investment:                  Good User Exerience is Good Business.
+                                                               (line 30)
+* ROI:                                   Good User Exerience is Good Business.
+                                                               (line 30)
+* self-service product, Web site:        User Experience and the Web.
+                                                               (line 25)
+* simple cases, user experience built-in: Designing (for) Experience---Use Matters.
+                                                               (line 11)
+* user experience design questions:      From Product Design to User Experience Design.
+                                                               (line 38)
+* user experience design, complex products: Designing (for) Experience---Use Matters.
+                                                               (line 18)
+* user experience, feeling stupid:       User Experience and the Web.
+                                                               (line 15)
+* user experience, introduction:         Introducing User Experience.
+                                                               (line 12)
+* user experience, neglected:            User Experience and the Web.
+                                                               (line 39)
+* user experience, Web site:             User Experience and the Web.
+                                                               (line 11)
+* user-centered design:                  Minding Your Users.   (line  6)
+* user-facing:                           From Product Design to User Experience Design.
+                                                               (line 29)
+* value for company:                     Good User Exerience is Good Business.
+                                                               (line 30)
+* Web application:                       Good User Exerience is Good Business.
+                                                               (line 16)
+* Web site as product:                   User Experience and the Web.
+                                                               (line  6)
+* Web site user experience:              User Experience and the Web.
+                                                               (line 11)
+* Web site, self-service product:        User Experience and the Web.
+                                                               (line 25)
+
 
 
 Tag Table:
 Node: Top342
-Node: Introduction977
-Node: About the Author1204
-Node: To the Second Edition1781
-Node: To the First Edition2716
-Node: User Experience and Why It Matters3783
-Node: Meet the Elements3990
-Node: The Strategy Plane4169
-Node: The Scope Plane4331
-Node: The Structure Plane4489
-Node: The Skeleton Plane4655
-Node: The Surface Plane4821
-Node: The Elements Applied4986
-Node: INDEX5144
+Node: Introduction1259
+Node: About the Author1486
+Node: To the Second Edition2063
+Node: To the First Edition2998
+Node: User Experience and Why It Matters4065
+Node: Everyday Miseries4679
+Node: Introducing User Experience4924
+Node: From Product Design to User Experience Design7254
+Node: Designing (for) Experience---Use Matters10051
+Node: User Experience and the Web11392
+Node: Good User Exerience is Good Business15141
+Node: Minding Your Users18497
+Node: Meet the Elements20017
+Node: The Strategy Plane20196
+Node: The Scope Plane20358
+Node: The Structure Plane20516
+Node: The Skeleton Plane20682
+Node: The Surface Plane20848
+Node: The Elements Applied21013
+Node: INDEX21171
 
 End Tag Table
 

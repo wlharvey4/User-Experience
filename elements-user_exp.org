@@ -4,7 +4,7 @@
 #+SUBTITLE: User-Centered Design for the Web and Beyond (2nd Edition)
 #+AUTHOR: Jess James Garrett
 #+CREATOR: WLHarvey4
-#+DATE: <2019-01-11 Fri 12:14>
+#+DATE: <2019-01-11 Fri 13:48>
 
 #+TEXINFO: @insertcopying
 
@@ -14,6 +14,7 @@
   :END:
 
 ** About the Author
+
    {{{AUTHOR}}}:
    - Is a founder of Adaptive Path, a user experience consultancy based in S.F.;
    - Has made contributions to the field of user experience include the Visual
@@ -23,6 +24,7 @@
      popular destinations for information architecture resources;
 
 ** To the Second Edition
+
    This book is no longer just about web sites.  Overall, the themes, concepts,
    and principles apply to products and services of all kinds.
 
@@ -38,6 +40,7 @@
    should be able to see how to apply these ideas in your own work.
 
 ** To the First Edition
+
    This is not a how-to book.  There are many books out there that explain how
    Web sites get made.  This is not one of them.
 
@@ -57,7 +60,301 @@
    foundation you need.  If you're already familiar with the methods and
    concerns of the field of user experience, this book will help you
    communicate them  more effectively to the people you work with.
+
 * User Experience and Why It Matters
+
+  Products and services are made by people and someone, somewhere should get
+  the credit when they work well for us---or get the blame when they don't.
+
+** Everyday Miseries
+
+   Everyone, every once in a while, has one of those days.
+
+   ...
+
+** Introducing User Experience
+
+   - The accident
+   - The register
+   - The pump
+   - The coffeemaker
+   - The Clock
+
+
+   #+cindex: user experience, introduction
+   In short, every one of the previous cases of ``bad luck'' could have been
+   avoided had someone made different choices in designing a product or
+   service.  These examples all demonstrate a lack of attention to the *user
+   experience*:  the experience the product creates for the people who use it
+   in the real world.  When a product is being developed, people pay a great
+   deal of attention to what it does.  User experience is the other, often
+   overlooked, side of the equation---how it works---that can often make the
+   difference between a successful product and a failure.
+
+   User experience is not about the inner workings of a product or service.
+   User experience is about how it works on the outside, where a person comes
+   into contact with it.  When someone asks you what it's like to use a product
+   or service, they're asking about the user experience.  Is it hard to do
+   simple things?  Is it easy to figure out?  How does it feel to interact with
+   the product?
+
+   That interaction often involves pushing a lot of buttons, as in the case of
+   technology products such as alarm clocks, coffeemakers, or cash registers.
+   Sometimes its just a matter of simply physical mechanism, such as the gas
+   cap on your car.  However, every product that is used by someone creates a
+   user experience: books, ketchup bottles, reclining armchairs, cardigan
+   sweaters.
+
+   For any kind of product or service, its the little things that count.
+   Having a button click when you push it down doesn't seem like much, but when
+   that click makes the difference between getting coffee and not getting
+   coffee, it matters a great deal.  Even if you never realized that the design
+   of that button was causing you trouble, how would you feel about a
+   coffeemaker that you were able to use successfully only party of the time?
+   How would you feel about the manufacturer?  Would you buy another product
+   from that company in the future?  Probably not.  Thus, for want of a button
+   that clicks, a customer is lost.
+
+** From Product Design to User Experience Design
+
+   #+cindex: aesthetic appeal
+   #+cindex: product design
+   When most people think about product design, they often think of it in terms
+   of aesthetic appeal: a well-designed product is one that looks good to the
+   eye and feels good to the touch.  Whether it's the curve of a sports car's
+   body or the texture of a power drill's grip, the aesthetic dimension of
+   product design is a sure attention-grabber.
+
+   #+cindex: functional design
+   Another common way people think about product design is in functional terms:
+   A well-designed product is one that does what it promises to do.  And a
+   badly-designed product is one that somehow doesn't: scissors that don't cut
+   even though the blades are sharp, a pen that doesn't write even though it's
+   full of ink, a printer that constantly jams.
+
+   All of these can certainly be failures of design.  These products might look
+   great and work well functionally, but designing products with the user
+   experience as an explicit oucome means looking beyond the functional or
+   aesthetic.
+
+   #+cindex; product development
+   Some people responsible for creating products may not think in terms of
+   design at all.  For them, the process of creating a product is about
+   development: steadily builidng up and refining the features and
+   functionalities of the product until they add up to something viable to the
+   marketplace.
+
+   #+cindex: form follows function
+   #+cindex: user-facing
+   #+cindex: psychology
+   #+cindex: behavior
+   In this view, the design of a product is dictated by its functionality---or,
+   as designers sometimes put it, ``form follows function.''  This approach
+   makes complete sense for the inner workings of a product, the parts
+   concealed from a user.  But when it comes to teh parts of a product that are
+   user-facing---the buttons, displays, labels, and so forth---the ``correct''
+   form isn't dictated by functionality at all.  Instead, its dictated by the
+   psychology and behavior of the users themselves.
+
+   #+cindex: context
+   #+cindex: user experience design questions
+   User experience design often deals with questions of context.  Aesthetic
+   design makes ure the button on the coffeemaker is an appealing shape and
+   texture.  Functional design makes sure it triggers the appropriate action on
+   the device.  User experience design makes sure the aesthetic and functional
+   aspects of the button work in the context of the rest of the product, asking
+   questions like, ``Is the button too small for such an important function?''
+   User experience design also makes sure the button works in the context of
+   what the user is trying to accomplish, asking such quesstions like, ``Is the
+   button in the right place relative to the other controls the user would be
+   using at the same time?''
+
+** Designing (for) Experience---Use Matters
+
+   #+cindex: design, product vs user experience
+   What's the difference between desigining a product and designing a user
+   experience?  After all, every product intended for humans has a user, and
+   every time a product is used, it delivers an experience.  The product can
+   fail to deliver a satisfactory experience.
+
+   #+cindex: simple cases, user experience built-in
+   Manufacturers tend not to employ user experience designers.  In simple
+   cases, the requirements to deliver a successful user experience are built
+   into the definition of the product itself.
+
+   #+cindex: complex products, user experience independent
+   With more complex products, the requirements to deliver a successful user
+   experience are independent of the definition of the product.
+
+   #+cindex: user experience design, complex products
+   And the more complex a product is, the more difficult it becomes to identify
+   exactly how to deliver a successful experience to the user.  Each additional
+   feature, function, or step in the process of using a product creates another
+   opportunity for the experience to fall short.  As a result, the process of
+   creating a successful product has to be quite different.  That's where
+   product design has to be supported by user experience design.
+
+** User Experience and the Web
+
+   #+cindex: Web site as product
+   User experience is vital to all kinds of products and services.  This book
+   is primarily about the user experience of one particular kind of product:
+   Web sites.  (/Site/ here refers to both content-oriented Web products and
+   interactive Web applications.)
+
+   #+cindex: Web site user experience
+   #+cindex: user experience, Web site
+   On the Web, user experience becomes even more important than it is for other
+   kinds of products.  The lessons we've learned from creating user experience
+   on the Web can be applied far beyond its boundaries.
+
+   #+cindex: user experience, feeling stupid
+   Web sites are complicated pieces of technology, and something funny happens
+   when people have trouble using complicated pieces of technology: They blame
+   themselves.  They feel like they must have done something wrong.  They feel
+   like they weren't paying enough attention.  They feel stupid.  Sure, it's
+   irrational.  After all, it's not their fault the site doesn't work the wey
+   they expect it to.  But they feel stupid anyway.  And if you intend to drive
+   people away from your site, it's hard to imagine a more effective approach
+   than making them feel stupid when they use it.
+
+   #+cindex: self-service product, Web site
+   #+cindex: Web site, self-service product
+   Regardless of the type of site, in virtually every case, a Web site is a
+   self-service product.  There is no instruction manual to read beforehand, no
+   training seminar to attend, no customer service representative to help guide
+   the user through the site.  There is only the user, facing the site alone
+   with only her wits and personal experience to guide her.
+
+   #+cindex: acknowledge user experience
+   It's bad enough that she's been stuck in the position of having to figure
+   out the site on her own.  The fact that most sites don't even acknowledge
+   her helpless condition only makes matters worse.,  Despite the vital
+   strategic importance of user experience to the success of a Web site, the
+   simple matter of understanding what people want and need has been a low
+   priority for most of the history of the medium.
+
+   #+cindex: user experience, neglected
+   If user experience is such a vital part of any Web site, why is it so often
+   neglected in the development process?  Many Web sites are built with the
+   idea that being first to market is the key to success,.  In the earliest
+   days of the Web, sites like Yahoo! built early leads that later competitors
+   struggled to overcome.  Established companies raced to set up Web sites,
+   determined not to be perceived as falling behind the times.  But in most
+   cases, companies considered merelly having deployed the site a great
+   accomplishment; whether the site actually worked for people was, at best, an
+   afterthought.
+
+   #+cindex: content and functionality glut
+   #+cindex: more features
+   To gain market share against these first-movers, competitors often add more
+   and more content and functionality in hopes of drawing in new customers.
+   This race to cram more features into products is hardly unique to the Web.
+
+   Having more features, however, turns out to be only a temporary source of
+   competitive advantage.  With the added complexity that comes with
+   ever-expanding feature set, sites become increasingly unwieldy, hard to use,
+   and unappealing to the very first-timers they are supposed to draw in.  And
+   still, many organizations pay little attention to what users like, find
+   valuable, or are really able to use.
+
+   #+cindex: quality user experience
+   More and more businesses have now come to recognize that providing a quality
+   user experience is an essential, sustainable competitive advantage.  It is
+   user experience that forms the customer's impression of a company's
+   offerings; it is user experience that differentiates a company from its
+   competitors; and it is user experience that determines whether your customer
+   will ever come back.
+
+** Good User Exerience is Good Business
+
+   #+cindex: content, information
+   #+cindex: informationm, content
+   #+cindex; effective communication
+   If your site consists of what Web pros call /content/---that is,
+   information---then one of the main goals of your site is to communicate that
+   information as effectively as possible.  It's not enough just to put it out
+   there.  It has be presented in a way that helps people absorb it and
+   understand it.  Otherwise, the user might not ever find out that you offer
+   the service or product they're looking for.  And even if they do manage to
+   find that information they're likely to draw the conclusion that if your
+   site is difficult to work with, your company probably is as well.
+
+   #+cindex: Web application
+   If your site is a Web-based application that people can use to accomplish
+   certain task, effective communication is a key factor in the success of your
+   product.  The world's most powerful functionality falters and fails if users
+   can't figure out how to make it work.
+
+   #+cindex: loyalty
+   Simply put, if your users have a bad experience, they won't come back.  If
+   they have an OK experience with your site but a better experience with your
+   competitor's site, they'll go back to that competitor, not you.  Features
+   and functions always matter, but user experience has a far greater effect on
+   customer loyalty.  All of your sophisticated technology and brand messaging
+   won't bring those customers back a second time.  A good user experience
+   will---and you don't get much of a second chance to get it right.
+
+   #+cindex: return on investment
+   #+cindex: ROI
+   #+cindex: value for company
+   Customer loyalty isn't the only way that focusing on the user experience of
+   your site can pay off.  Businesses with an eye on the bottom line want to
+   know about the *return on investment*, or *ROI*.  ROI is usually measured in
+   terms of money: For every dollar you spend, how many dollars of value are
+   you getting back?  That's the ROI.  But return on investment does not have
+   to be expressed in strictly monetary terms.  All you need is a measurement
+   that shows that your money going out translates into value for your company.
+
+   #+cindex: conversion rate, ROI
+   One common measure of return on investment is *conversion rate*.  Any time
+   you want to encourage your customers to take the next step in building a
+   relationship with you---whether that involves something as complex as
+   customizing the site to their preferences or as simple as signing up to
+   receive an e-mail newsletter---there's a conversion rate you can measure.
+   By keeping track of what percentage of users you convert to the next level,
+   you can measure how effectively your site is meeting your business goals.
+
+   #+cindex: efficiency, increase
+   #+cindexz; work faster
+   #+cindex: mistakes, make fewer
+   Any user experience effoert aims to increase efficiency.  This comes in two
+   key forms: helping people work faster and helping them make fewer mistakes.
+   Improving the efficiency of the tools you use improves the productivity of
+   the business as a whole.  The less time it takes to complete any given task,
+   the more you can get done in a day.  In keeping with the old notion that
+   time is money, saving your employees time translates direclty into saving
+   your business money.
+
+   People like their jobs more when their tools are natural and easy to use,
+   not frustrating and needlessly complex.
+
+** Minding Your Users
+
+   {{{heading(User-Centered Design)}}}
+   #+cindex: user-centered design
+   The practice of creating engaging, efficient user experience is called
+   *user-centered design*.  The concept of user-centered design is very simple:
+   Take the user into account every step of the way as you develop your
+   product.  The implications of this simple concept are surprisinly complex.
+
+   #+cindex: decisions, consciously made
+   Everything the user experiences should be the result of a conscious decision
+   on your part.  Realistically, you might have to make a compromise here and
+   there because of the time or expense involved in creating a better
+   solution.  But a user-centered design process ensures that those compromises
+   don't happen by accident.  By thinking about the user experience, breaking
+   it down into its component elements, and looking at it from several
+   perspectives, you can ensure that you know all the ramifications of your
+   decisions.
+
+   The biggest reason user experience should matter to you is that it matters
+   to your users.  if you don't provide them with a positive experience, they
+   won't use your product.  And without users, all you've got is a dusty Web
+   serverr somewhere, idly waiting to fulfill a request that will never come.
+   For the users who do come, you must set out to provide them with an
+   experience that is cohesive, intuitive, and maybe even pleasurable---an
+   experience in which everything works the way it should.
 * Meet the Elements
 * The Strategy Plane
 * The Scope Plane
@@ -84,3 +381,6 @@
 #+TEXINFO_DIR_CATEGORY: Web Development
 #+TEXINFO_DIR_TITLE: Elements of User Experience
 #+TEXINFO_DIR_DESC: User-Centered design for the web
+* MACRO DEFINITIONS                                                :noexport:
+  #+MACRO: heading @@texinfo:@heading @@
+  #+MACRO: subheading @@texinfo:@subheading @@
