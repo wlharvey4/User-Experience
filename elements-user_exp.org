@@ -4,7 +4,7 @@
 #+SUBTITLE: User-Centered Design for the Web and Beyond (2nd Edition)
 #+AUTHOR: Jesse James Garrett
 #+CREATOR: WLHarvey4
-#+DATE: <2019-02-02 Sat 21:41>
+#+DATE: <2019-02-02 Sat 22:42>
 
 #+TEXINFO: @insertcopying
 
@@ -814,6 +814,194 @@
    experience.
 
 * The Strategy Plane
+
+  {{{heading(Product Objectives and User Needs)}}}
+
+  - User Needs
+  - Product Objectives
+
+  The foundation of a successful user experience is a clearly articulted
+  strategy.  Knowing both what we want the product to accomplish for our
+  organization and what we want it to accomplish for our user informs the
+  decisions we have to make about every aspect of the user experience.  But
+  answering these simple questions can be trickier than it looks.
+
+** Defining the Strategy
+
+   The most common reason for the failure of a Web site is not technology.
+   It's not user experience either.  Web sites most often fail because---before
+   the first line of code was written the first pixel was pushed, or the first
+   server was installed---nobody bothered to answer two very basic questions:
+
+   - What do we want to get out of this product?
+   - What do our users want to get out of it?
+
+
+   #+NAME:tab:strategy
+   #+CAPTION:Defining the Strategy: Product objectives and User needs
+   | product as functionality | product as information |
+   |--------------------------+------------------------|
+   | STRATEGY                 |                        |
+   | -User Needs              | -User Needs            |
+   | -Product Objectives      | -Product Objectives    |
+   |--------------------------+------------------------|
+
+   By answering the first questions, we describe the *product objectives*
+   coming from inside the organization.  The second question addresses *user
+   needs*, objectives imposed on the product from outside.  Together, product
+   objectives and user needs form the /strategy plane/, the foundation for
+   every decision in our process as we design the user experience.  Yet,
+   amazingly, many user experience projects do not begin with a clear, explicit
+   understanding of the underlying strategy.
+
+   The key word here is /explicit/.  The more clearly we can articulate exactly
+   what we want, and exactly what others want from us, the more precisely we
+   can adjust our choices to meet these goals.
+
+** Product Objectives
+
+   The first part of making our strategy explicit is examining our own
+   objectives for the product or service.  Too often, product objectives exist
+   only as an unspoken understanding among those building the product.  When
+   that understanding remains unspoken, different people often have different
+   ideas about what the product is supposed to accomplish.
+
+*** Business Goals
+
+    People commonly use terms like /business goals/ or /business drivers/ to
+    describe the internal strategic objectives.  I'm going to use the term
+    /product objectives/ because these other terms are both too narrow and too
+    broad: too narrow because not every internal goal is a business goal (after
+    all, not every organization has the same kinds of goals that businesses
+    do), and too broad because our concern here really is to identify in the
+    most specific terms possible what we expect the product itself to
+    accomplish, regardless of the rest of our business activities.
+
+    Most people start out describing objectives for their products in very
+    general terms.  In the case of Web sites, they fundamentally serve one of
+    two purposes: to make the company money or to save the company money.
+    Sometimes its both.  But exactly how these sites are supposed to do that is
+    not always clear.
+
+    On the other hand, objectives that are too specific don't adequately
+    describe the strategic concerns at issue.  For example, stating that one of
+    your objectives is ``to provide users with a real-time text communications
+    tool'' doesn't explain how such a tool helps advance the objectives of your
+    organization, or how it helps meet the needs of your users.
+
+    In trying to strike a balance between being too specific and being too
+    general, we want to avoid jumping ahead to identify solutions when we don't
+    yet fully understand the problems.  To create a successful user experience,
+    we have to make sure that every decision we make is rooted in a firm
+    understanding of its consequences.  Clearly defining the conditions for
+    success---without defining the path to get there---assures that we don't
+    get ahead of ourselves.
+
+*** Brand Identity
+
+    One essential consideration in formulating the objectives for any product
+    is brand identity.  When most of us see the word /branding/, we think of
+    things like logos, color palettes, and typography.  While these visual
+    aspects of brand are important (we'll revisit them in more detail when we
+    get to the surface plane in Chapter 7), the concept of brand extends far
+    beyond the visual.  Brand identity---a set of conceptual associations or
+    emotional reactions---is important because it's inescable.  In the minds of
+    your users, an impression about your organization is inevitably created by
+    their interactions with your product.
+
+    You must choose whether that impression happens by accident or as a result
+    of conscious choices you have made in designing your product.  Most
+    organizations choose to exert some control over the perception of their
+    brand, which is why communicating brand identity is a very common product
+    objective.  Branding isn't just for commercial entities, either---every
+    organization with a Web site, from nonprofit foundations to government
+    agencies to individuals, creates an impression through user experience.  By
+    codifying the specific qualities of that impression as an explicit
+    objective, you increase your chances that it will lbe a positive
+    impression.
+
+*** Success Metrics
+
+    An important part of understanding your objectives is understanding how you
+    will know when you have reached them.
+
+    {{{heading(Measuring Success)}}}
+
+     These are known as *success metrics*: indicators we can track after the
+     product has been launched to see whether it is meeting our own objectives
+     and our users' needs.  Defining good success metrics not only influences
+     decisions made over the course of the project; achieving them provides
+     concrete evidence of the value of use experience efforts if you find
+     yourself a skeptical audience when seeking budget approval for your next
+     user experience project.
+
+     Sometimes these metrics are related to the product itself and how it is
+     used.  How much time does the average user spend on your site during each
+     visit?  (Analytics tools can help you determine this.)  If you want to
+     encourage your users to feel comfortable with the site, hang out, and
+     explore what you have to offer, you'll want to see the times per visit
+     increase.  On the other hand, if you want to provide quick, get-in-and-out
+     access to information and functionality, you may want to decrease the time
+     per visit.
+
+     #+BEGIN_cartouche
+     Success metrics are concrete indicators of how effectively the user
+     experience is meeting strategic goals.  Measuring the number of visits per
+     registered user per month indicates how valuable the site is to its core
+     audience.
+     #+END_cartouche
+
+     For sites that depend on advertising revenue, impressions---the number of
+     times each day an ad is served to a user---is an incredibly important
+     metric.  But you have to be careful to balance your objectives and the
+     needs of your users.  Adding several layers of navigational pages between
+     the home and the content users want will definitely increase your ad
+     impressions, but is it serving user needs?  Probably not.  And in the long
+     run, it will show: As your users get frustrated and decide not to come
+     back, your impressions will drop from that initial high and will probably
+     end up lower than they were when you started.
+
+     Not all sucess metrics have to be derived directly from your site.  You
+     can measure the indirect effects of the site as well.  If your site
+     provides solutions to common problems people encounter with your product,
+     the number of phone calls coming into your customer support lines should
+     go down.  An effective intranet can provide ready access to tools and
+     resources that can cut down on the time it takes for your salespeople to
+     close a sale---which, in turn, translates directly into increased revenue.
+
+     For success metrics to meaningfully drive user experience decisions, those
+     metrics must be clearly tied to aspects of user behavior that can be
+     shaped by our design choices.
+
+     The user experience of your site can't do much by itself to bring new
+     users to your site---you'll have to rely upon word-of-mouth or your
+     marketing efforts for that.  But the user experience has a whole lot of
+     influence on whether those visitors come back.  Measuring return visits
+     can be a great way to assess whether you're meeting user needs, but be
+     careful: Sometimes those users don't come back because your competitor
+     launched a gigantic advertising campaign or because your company just got
+     some bad press.  Any metric viewed in isolation can be misleading; be sure
+     to take a step back and look at what's going on beyond the Web site to
+     make sure you're getting the whole story.
+
+** User Needs
+
+*** User Segmentation
+
+*** Usability and User Research
+
+**** Market research methods
+
+**** Contextual inquiry
+
+**** Task analysis
+
+**** User testing
+
+*** Creating Personas
+
+** Team Roles and Process
+
 * The Scope Plane
 * The Structure Plane
 * The Skeleton Plane
