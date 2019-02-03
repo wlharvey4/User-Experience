@@ -4,7 +4,7 @@
 #+SUBTITLE: User-Centered Design for the Web and Beyond (2nd Edition)
 #+AUTHOR: Jesse James Garrett
 #+CREATOR: WLHarvey4
-#+DATE: <2019-02-02 Sat 22:42>
+#+DATE: <2019-02-03 Sun 08:21>
 
 #+TEXINFO: @insertcopying
 
@@ -986,19 +986,387 @@
 
 ** User Needs
 
+   It can be easy to fall into the trap of thinking that we are designing our
+   product or service for one idealized user---someone exactly like us.  But we
+   aren't designing for ourselves; we're designing for other people, and if
+   those other people are going to like and use what we create, we need  to
+   understand who they are and what they need.  By spending time researching
+   those needs, we can break out of our own limited perspective and see the
+   site from the point of view of the users.
+
+   Identifying user needs is complicated because users can be quite diverse.
+   Even if we're creating a Web site for use inside our organization, we still
+   may have to address a wide range of needs.  If we are creating a mobile app
+   intended for a consumer audience, the possibilities increase exponentially.
+
+   To get to the bottom of those needs, we have to define just who our users
+   are.  Once we know whom we're trying to reach, we can conduct research with
+   them---in other words ask them questions and observe their behavior.  That
+   research can help us define and prioritize what people need when they use
+   our product.
+
 *** User Segmentation
+
+    We can break this mass of user needs down into manageable chunks through
+    *user segmentation*.  We divide our audience into smaller groups (or
+    segments) consisting of users with certain key characteristics in common.
+    There are nearly as many ways to segment user groups as there are types of
+    users, but here are a couple of the most common approaches.
+
+    #+BEGIN_cartouche
+    User segmentation helps us understand user needs better by dividing the
+    entire audience into smaller groups of people with shared needs.
+    #+END_cartouche
+
+**** Demographics
+
+     Market researchers commonly create audience segments based on
+     *demographic* criteria:
+     - gender
+     - age
+     - eductation level
+     - marital status
+     - income
+
+
+     {{{noindent}}}These demographic profiles can be quite general (men 18-49)
+     or very specific (unmnarried, college-educated women 25-34 making over
+     $50,000 a year).
+
+**** Psychographics
+
+     Demographics aren't the only way you can look at your users.
+     *Psychographic* profiles describe the attitudes and perceptions that your
+     users have about the world or about the subject matter of your site in
+     particular.  Psychographics often correlate strongly with demographics:
+     People in the same age group, location, and income level often have
+     similar attitudes.  But in many cases, demogrpahically identical people
+     have very different ways of seeing and interacting with the world.  That's
+     why uncovering the psychographics of your users can give you insights you
+     can't get from demographics.
+
+**** Technology
+
+     When developing a Web site or any technology product, there's another very
+     important set of attitudes to consider: the users' attitudes toward the
+     Web and technology itself.  How much time do your users spend using the
+     Web every week?  Is technology a part of their daily lives?  Do they have
+     the latest and greate3st products, or do they only upgrade when they have
+     to?  Technophobes and power users approach Web sites in very different
+     ways, and our designs need to accommodate them.  Answers to questions like
+     these can help us do just that.
+
+**** Knowledge of Subject Matter
+
+     In addition to understanding our users' familiarity and comfort level with
+     technology, we need to understand what and how much they know about the
+     subject matter of our site.  Selling cookware to people just learning
+     their way around a kitchen must be handled very differently from selling
+     to professional cooks,  Simialarly, a stock-trading application used by
+     those unfamiliar with the stock market will require a different approach
+     from one for seasoned investors.  These differences in experience or
+     expertise form the basis for segmenting our audience.
+
+**** Social or Professional Roles
+
+     The way people use information often depends on their social or
+     professional role.  The information needs of the parents of a student
+     applying for college are different from those of the student herself.
+     Identifying the different roles of your product's users can help you
+     separate them and analyze their different needs.
+
+**** Revising Segments
+
+     After you've conducted some research on your user groups, you might need
+     to revise the segments you are working with.  For example, if you're
+     researching 25-34-year-old, college-educated women, you might find that
+     the needs of the 30-34 year-olds differ from those of the 25-29 age
+     group.  If the difference is great enough, you might want to treat these
+     as separate groups, rather than the single 25-34 group you started with.
+     On the other hand, if the 18-24 group seems pretty similar to the 25-34
+     group, maybe you can combine them.  Creating user segments is just a means
+     to the end of uncovering user needs.  You really only need as many
+     different segments as you have different sets of user needs.
+
+**** Needs in Opposition
+
+     There's another important reason to create user segments: Not only will
+     different groups of users have different needs, but sometimes those needs
+     will be in direct opposition.  Take the preceding examples of the
+     stock-trading application.  The novices would probably be best served by
+     an application that broke the process down into a sequence of simple
+     steps.  For the experts, however, such a sequence would be a hindrance.
+     The experts need a unified interface that provides rapid access to a wide
+     range of functions.
+
+     Obviously, we can't meet both sets of user needs with a single solution.
+     Our options at this point are to focus on one user segment to the
+     exclusion of the other, or to provide two separate ways for users to
+     approch the same task.  Whichever course we choose, this strategic
+     decision will have consequences for every additional choice we make about
+     the user experience.
 
 *** Usability and User Research
 
+    To understand what our users need, we first have to get a sense of who they
+    are.  The field of *user research* is devoted to collecting the data needed
+    to develop that understanding.
+
+    Some research tools---such as surveys, interviews, or focus groups---are
+    best suited for gathering information about the general attitudes and
+    perceptions of your users.  Other research tools---such as user tests or
+    field studies---are more appropriate for understanding specific aspects of
+    user behavior and interaction with your product.
+
+    Generally, the more time you spend with each individual user, the more
+    detailed the information you will get from the research study.  However,
+    that additional time spent with each user necessarily means you won't be
+    able to include as many users in the study (if only because the product or
+    service has to launch eventually).
+
 **** Market research methods
+
+     *Market research methods* like surveys and focus groups can be valuable
+     sources of general information about your users.  These methods are most
+     effective when you clearly articulate for yourself what information you're
+     trying to get out of them.  Do you want to find out what your users are
+     doing when they uyse a particular feature of your product?  Or maybe you
+     already know that, but you need to know why they're doing it.  The more
+     clearly you can describe what you want, the more narrowly and effectively
+     you can formulate the questions you ask to ensure that you get the right
+     information.
 
 **** Contextual inquiry
 
+     *Contextual inquiry* refers to a whole set of methods that, collectively,
+     form the most powerful and comprehensive toolkit for understanding your
+     users in the context of their everyday lives (hence the name).  These
+     techniques are derived from the methods used by anthropologists to study
+     cultures and societies.  Applied on a smaller scale, the same methods used
+     to examine, for example, how a nomadic tribe functions, can be used to
+     examine how people who buy aircraft parts function.  The only downside is
+     that contextual inquiry can be very time-consuming and very expensive.  If
+     you have the resources, and your proglem requires a deep understandig of
+     your users, a full-blown contextual inquiry study can reveal subtleties of
+     user behavior that can't be discovered through other methods.
+
 **** Task analysis
+
+     In other cases, contextual methods can be lightweight and inexpensive,
+     although they tend not to produce the deep understanding of a full
+     research study.  one example of a method closely related to contextual
+     inquiry is *task analysis*.  The idea behind task analysis is that every
+     user's interaction with a product takes place in the context of some task
+     that user is performing.  Sometimes the task is very focused (such as
+     buying movie tickets) and sometimes it's broader (such as learning about
+     international commerce regulations).  Task analysis is a method of closely
+     examining the precise steps users go through in accomplishing those
+     tasks.  This examination can be done through interviews in which you get
+     users to tell you stories about their experiences or through direct
+     observation in the field, studying the users in their natural habitat.
 
 **** User testing
 
+     *User testing* is the most commonly employed form of user research.  User
+     testing is not about testing your users; instead, it's about getting your
+     users to test what you've produced.  Sometimes user tests work with a
+     finished product, either in preparation for a redesign or to root out any
+     usability issues before launch.  In other cases, users can test a work in
+     progress or even a rough prototype of the finished product.
+
+***** Usability
+
+      If you've done any reading about Web design at all, you've probably come
+      across the concept of /usability/.  This word means different things to
+      different people.  Some people use it to refer to the practice of testing
+      designs with representative users.  For others, it means adopting a very
+      specific development methodology.
+
+***** Usable Products
+
+      Every approach to usability seeks to make products easier to use.  Many
+      different definitions and lists of rules set out to codify what
+      constitutes a usable Web site design.  Some of them even agree with each
+      other.  But they all have the same principle at their core: Users need
+      usable products.  It's the most universal user need of all.
+
+***** Fully Operational Web Site
+
+      Tests with a fully operational Web site casn be very broad or very narrow
+      in scope.  As with surveys or focus groups, its best if you have a clear
+      sense of what you want to investigate before you sit down with users.
+      That doesn't mean, however, that a user test has to be strictly limited
+      to assessing how successfully users complete a narrowly defined task.
+      User testing can also investigate broader, less concrete issues.  For
+      example, a user test could be used to find out whether modifications to
+      the design reinforce or undermine the company's brand message.
+
+***** Prototypes
+
+      Another approach to user testing is to have users work with prototypes.
+      These can take a variety of forms, from rough sketches on paper, to
+      ``lo-fi'' mockups using stripped-down interface designs, to
+      ``click-through'' prototypes that create the illusion of a finished
+      product.  Larger-scale projects employ different kinds of prototypes at
+      different stages to gather user input all the way through the design
+      process.
+
+***** Exercises
+
+      Sometimes user tests don't involve the site at all.  You can recruit
+      users to perform a variety of exercises that can give you insights into
+      how they approach the subject matter of your site.  For
+      information-oriented sites, *card sorting* is one method used to explore
+      how users categorize or group information elements,.  The user is given a
+      stack of index cards, each of which has the name, description, or image
+      of a piece or type of content on it.  The user then sorts the cards into
+      piles according to the groups or categories that feel most natural.
+      Analyzing the results of card soerts conducted with several users can
+      help us understand how they think about the information our site
+      provides.
+
 *** Creating Personas
+
+    Collecting all sorts of data about your users can be incredibly valuable,
+    but sometimes you can lose sight of the real people behind all the
+    statisics.  You can make your users more real by turning them into
+    *personas* (sometimes called user models or user profiles).  A persona is a
+    fictional character constructed to represent the needs of a whole range of
+    real users.  By putting a face and a name on the disconnected bits of data
+    from your user research and segmentation work, personas can help ensure
+    that you keep the users in mind during the design process.
+
+**** Example of Personas
+
+     #+BEGIN_cartouche
+     Personas are fictional characters drawn from user research who serve as
+     example cases during user experience development.
+     #+END_cartouche
+
+     Let's look at an example.  Suppose our site is designed to provide
+     information for people who are starting their own businesses.  We know
+     from our research that our audience mostly falls in the 30-45 age range.
+     Our users tend to be fairly comfortable with the Web and technology in
+     general.  Some of them have a lot of experience in the business world; for
+     others, this is their first exposure to all of the issues involved in
+     running a business.
+
+     In this case, it might be appropriate to create two personas.  We'll call
+     the first one Janet.  She's 42 years old, she's married, and she has two
+     kids.  She's spent the last couple of years as a vice president at a
+     laerge accounting firm.  She's become frustrated with working for other
+     people, and now she wants to build a company of her own.
+
+     The second persona is Frank.  He's 37 years old and married with one
+     child.  Woodworking has been a weekend hobby of Frank's for many years.
+     Some friends of his were impressed by some furniture he made, so he's been
+     thinking he could go into business for himself selling his work.  He's not
+     sure if he'll have to quit his job as a school bus driver in order to
+     launch his new business.
+
+**** Source of Personas
+
+     Where did all of this information come from?  Well, for the most part we
+     made it up.  We want our personas to be consistent with what we know about
+     the users from our research, but the specific details of our personas re
+     fictional inventions, used to breathe life innto these characters who will
+     stand in for our real, live users.
+
+**** Using Personas
+
+     Janet and Frank represent the range of user needs we'll have to keep in
+     mind as we're making decisions about the user experience of our site.  To
+     help us remember them and their needs, we'll grab a couple of stock photos
+     to give Janet and Frank a little more identity, and combine those photos
+     with the information about them we've put together.  These profiles can be
+     printed out and posted our the office so that when we have decisions to
+     make we can ask ourselves (and each other): ``Would that work for Janet?
+     How would Frank react to it?'' The personas help us keep our users in mind
+     every step of the way.
+
+** Team Roles and Process
+
+   Strategic issues affect everyone involved in the user experience design
+   process.  But despite this fact (or perhaps because of it), resonsibility
+   for formulating these objectives often falls through the cracks.  Consulting
+   firms will sometimes employ *strategists* on client projects to manage these
+   issues---but because such rarefied expertise tends to be expensive, and
+   becaue strategists aren't directly responsible for building any piece of the
+   product itself, this line item is often one of the first to be cut from a
+   project budget.
+
+*** Stakeholders
+
+    Strategists will talk to many people throughout the organization to get as
+    many perspectives as possible on the questions of product objectives and
+    user needs.  *Stakeholders* are senior decision-makers who are responsible
+    for paerts of the organization that will be affected by the ultimate
+    strategic direction of the product.  For example, in the case of a Web site
+    designed to provide customers with access to iproduct support information,
+    stakeholders might include representatives from marketing communications
+    and customer service as well as product managers.  It depends on the formal
+    decision-making structure (and the informal political realities) of the
+    organization.
+
+*** Rank and File People
+
+    One group often neglected in formulating a strategy is the rank and
+    file---the people responsible for keeping the organization running on a
+    day-to-day basis.  But these people often have a better sense of what works
+    and what doesn't than their managers do.  They can inform the strategy in
+    ways senior decision-makers can't---expecially when it comes to user
+    needs.  No one knows what customers are having trouble with better than the
+    people who talk to those customers every day.  I am often surprised at how
+    infrequently customer feedback finds its way to the product design and
+    development teams who need it.
+
+*** Strategy Document
+
+    Product objectives and user needs are often defined in a formal *strategy
+    document* or vision document.  This document isn't just a list of
+    objectives---it provides an analysis of the relationships among the various
+    objectives and of how those objectives fit into the larger context of the
+    organization.  The objectives and their analysis are often supported by
+    direct quotes from stakeholders, rank-and-file employees, and users
+    themselves.  These quotes vividly illustrate the strategic issues involved
+    in the project.  User needs are sometimes documented in a separate user
+    research report (though there are certain advantages to having all your
+    information in one place).
+
+**** Keep Scope Focues
+
+     Bigger is not necessarily better when it comes to documenting your
+     strategy.  You don't have to include everyn data point and every supporting
+     quote to get your idea across.  Keep it concise and to the point.  Remember
+     that many people who will be exposed to the document won't have the time or
+     interest to wade through hundreds of pages of supporting material, and its
+     far more important that they understand the strategy than that they be
+     impressed by the volume of verbiage you've produced.  An effective strategy
+     document not only serves as a touchstone for the user experience
+     development team; it can also be used to build support for the project in
+     other parts of the organization.
+
+**** Provide Open Access
+
+     The worst thing you can do with your strategy document is limit your
+     team's access to it.  The document wasn't created to be filed away
+     somewhere or shared only with a handful of senior staff members---if the
+     effoert that went into it is going to pay off, the document has to be used
+     during the project.  All participants---designers, developers, project
+     managers---need the strategy document to make informed decisions about
+     their work.  Strategy documents often contain sensitive material, but
+     organizations can go too far and keep the strategy away from the
+     responsible team, which undermines their ability to realize it.
+
+** Summary of Strategy
+
+   Strategy should be the beginning of your user experience design process, but
+   that doesn't mean your strategy must be set in stone before the project can
+   move forward.  Although trying to hit a moving target can be a tremendous
+   waste of time and resources (not to mention a huge source of internal
+   frustration), strategies can and should evolve and be refined.  When revised
+   and refined systematically, strategy work can be a continuing source of
+   inspiration through the user experience design process.
 
 ** Team Roles and Process
 
