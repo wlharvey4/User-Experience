@@ -26,13 +26,14 @@ Beyond
 * Introduction::
 * User Experience and Why It Matters::
 * Meet the Elements::
-* The Strategy Plane::
-* The Scope Plane::
-* The Structure Plane::
-* The Skeleton Plane::
-* The Surface Plane::
+* The Strategy Plane: The Strategy Plane 2.
+* The Scope Plane: The Scope Plane 2.
+* The Structure Plane: The Structure Plane 2.
+* The Skeleton Plane: The Skeleton Plane 2.
+* The Surface Plane: The Surface Plane 2.
 * The Elements Applied::
 * INDEX::
+* TABLES::
 
 — The Detailed Node Listing —
 
@@ -51,6 +52,30 @@ User Experience and Why It Matters
 * User Experience and the Web::
 * Good User Exerience is Good Business::
 * Minding Your Users::
+
+Meet the Elements
+
+* The Five Planes::
+* Building From Bottom To Top::
+* A Basic Duality::
+* The Elements of User Experience::
+* Using the Elements::
+
+The Five Planes
+
+* The Surface Plane::
+* The Skeleton Plane::
+* The Structure Plane::
+* The Scope Plane::
+* The Strategy Plane::
+
+The Elements of User Experience
+
+* The Strategy Plane: The Strategy Plane 1.
+* The Scope Plane: The Scope Plane 1.
+* The Structure Plane: The Structure Plane 1.
+* The Skeleton Plane: The Skeleton Plane 1.
+* The Surface Plane: The Surface Plane 1.
 
 
 
@@ -412,6 +437,9 @@ File: elements-user_exp.info,  Node: Minding Your Users,  Prev: Good User Exerie
 1.7 Minding Your Users
 ======================
 
+User-Centered Design
+====================
+
 The practice of creating engaging, efficient user experience is called
 *user-centered design*.  The concept of user-centered design is very
 simple: Take the user into account every step of the way as you develop
@@ -437,49 +465,517 @@ even pleasurable—an experience in which everything works the way it
 should.
 
 
-File: elements-user_exp.info,  Node: Meet the Elements,  Next: The Strategy Plane,  Prev: User Experience and Why It Matters,  Up: Top
+File: elements-user_exp.info,  Node: Meet the Elements,  Next: The Strategy Plane 2,  Prev: User Experience and Why It Matters,  Up: Top
 
 2 Meet the Elements
 *******************
 
+The user experience design process is all about ensuring that no aspect
+of the user’s experience with your product happens without your
+conscious, explicit intent.  This means taking into account every
+possibility of every action the user is likely to take and understanding
+the user’s expectations at every step of the way through that process.
+
+   By breaking the job of crafting user experience down into its
+component elements, we can better understand the task as a whole.
+
+* Menu:
+
+* The Five Planes::
+* Building From Bottom To Top::
+* A Basic Duality::
+* The Elements of User Experience::
+* Using the Elements::
+
 
-File: elements-user_exp.info,  Node: The Strategy Plane,  Next: The Scope Plane,  Prev: Meet the Elements,  Up: Top
+File: elements-user_exp.info,  Node: The Five Planes,  Next: Building From Bottom To Top,  Up: Meet the Elements
+
+2.1 The Five Planes
+===================
+
+Purchasing a physical product over the Web.  The experience is the same
+every time:
+
+   • go to the site
+   • find the item (search engine or browsing a catalog)
+   • give your credit card number, address
+   • site confirms that the product will be shipped to you
+
+   That neat, tidy experience actually results from a whole set of
+decisions—some small, some large—about how the site looks, how it
+behaves, and what it allows you to do.  These decisions build upon each
+other, informing and invluencing all aspects of the user experience.
+
+   If we peel away the layers of that experience, we can begin to
+understand how those decisions are made.
+
+* Menu:
+
+* The Surface Plane::
+* The Skeleton Plane::
+* The Structure Plane::
+* The Scope Plane::
+* The Strategy Plane::
+
+
+File: elements-user_exp.info,  Node: The Surface Plane,  Next: The Skeleton Plane,  Up: The Five Planes
+
+2.1.1 The Surface Plane
+-----------------------
+
+On the *surface* you see a series of Web pages, made up of images and
+text.  Some of these images are things you can click on, performing some
+sort of function such as taking you to a shopping cart.  Some of these
+images are just illustrations, such as a photograph of a product for
+sale or the logo of the site itself.
+
+
+File: elements-user_exp.info,  Node: The Skeleton Plane,  Next: The Structure Plane,  Prev: The Surface Plane,  Up: The Five Planes
+
+2.1.2 The Skeleton Plane
+------------------------
+
+Beneath that surface is the *skeleton* of the site: the placement of
+buttons, controls, photos, and blocks of text.  The skeleton is designed
+to optimize the arrangement of these elements for maximum effet and
+efficiency—so that you remember the logo and can find that shopping cart
+button when you need it.
+
+
+File: elements-user_exp.info,  Node: The Structure Plane,  Next: The Scope Plane,  Prev: The Skeleton Plane,  Up: The Five Planes
+
+2.1.3 The Structure Plane
+-------------------------
+
+The skeleton is a concrete expression of the more abstract *structure*
+of the site.  The skeleton might define the placement of the interface
+elements on our checkout page; the structure would define how users got
+to that page and where they could go when they were finished there.  The
+skeleton might define the arrangement of navigational elements allowing
+the users to browse categories of products; the structure would define
+what those categories were.
+
+
+File: elements-user_exp.info,  Node: The Scope Plane,  Next: The Strategy Plane,  Prev: The Structure Plane,  Up: The Five Planes
+
+2.1.4 The Scope Plane
+---------------------
+
+The structure defines the way in which the various features and
+functions of the site fit together.  Just what those features and
+functions are constitutes the *scope* of the site.  For example, some
+commerce sites offer a feature that enables users to save previously
+used shipping addresses so they can be used again.  Whether that
+feature—or any feature—is included on a site is a question of scope.
+
+
+File: elements-user_exp.info,  Node: The Strategy Plane,  Prev: The Scope Plane,  Up: The Five Planes
+
+2.1.5 The Strategy Plane
+------------------------
+
+The scope is fundamentally determined by the *strategy* of the site.
+This strategy incorporates not only what the people running the site
+want to get out of it but what the users want to get out of the site as
+well.  In the case of our store example, some of the strategic
+objectives are pretty obvious—such as the the role that advertising or
+content produced by our users plays in our business model, for
+example—might not be so easy to articulate.
+
+
+File: elements-user_exp.info,  Node: Building From Bottom To Top,  Next: A Basic Duality,  Prev: The Five Planes,  Up: Meet the Elements
+
+2.2 Building From Bottom To Top
+===============================
+
+These five planes:
+  1. strategy
+  2. scope
+  3. structure
+  4. skeleton
+  5. surface
+
+provide a conceptual framework for talking about user experience
+problems and the tools we use to solve them.
+
+Levels of Abstractness to Concretness
+=====================================
+
+On each plane, the issues we must deal with become a little less
+abstract and a little more concrete.  On the lowest plane, we are not
+concerned with the final shape of the site, product, or service at
+all—we only care about how the site will fit into our strategy (while
+meeting the needs of our users).  On the highest planem, we are only
+concerned with the most concrete details of the appearance of the
+product.  Plane by plane, the decisions we have to make become a little
+more specific and involve finer levels of detail.
+
+Interdependency Between Planes
+==============================
+
+Each plane is dependent on the planes below it.  So, the surface depends
+on the skeleton which depends on the structure, whihc depends on the
+scope, which depends on the strategy.  When the choices we make don’t
+align with those above and below, projects derail, deadlines are missed,
+and the costs begin to skyrocket as the development team tries to piece
+together components that don’t naturally fit.  Even worse, when the
+product finally does launch, users often hate it, because it doesn’t
+deliver a satisfying experience.  This dependence means that decisions
+on the strategy plane will have a sort of “ripple effect” all the way up
+the chain.  Conversely, the choices available to use on each plane are
+constrained by the decisions we make about issues on the planes below
+it.
+
+   That does not mean, however, that every decision about a lower plane
+must be made before the plane above it can be addressed.  Dependencies
+run in both directions, with decisions made on upper planes sometimes
+forcing a reevaluation (or an evaluation made for the first time!)  of
+issues on lower planes.  At each level, we make decisions according to
+what the competition is doing, industry best practices, what we know
+about our users, and plain old common sense.  These decisions can have a
+ripple effect in both directions.
+
+   If you consider your decisions on lower planes to be set in stone
+before you take on your first decisions in higher planes, you will
+almost certainly be throwing your project schedule—and possible the
+success of your final product—into jeopardy.
+
+   Instead, you should plan your project so that work on any plane
+cannot _finish_ before work on lower planes has finished.  The important
+consideration here is to not build the roof of the house before you know
+the shape of the foundation.
+
+
+File: elements-user_exp.info,  Node: A Basic Duality,  Next: The Elements of User Experience,  Prev: Building From Bottom To Top,  Up: Meet the Elements
+
+2.3 A Basic Duality
+===================
+
+Of course, there are more than just five elements of user experience,
+and as with any specialized field, this one has evolved a vocabulary all
+its own.  To someone encountering the field for the first time, user
+experience can appear to be a complicated business.  All these seemingly
+identical terms are thrown around:
+   • interaction design
+   • information design
+   • information architecture
+
+What do they mean?  Anything?  Or are they just more meaningless
+industry buzzwords?
+
+   To further complicate matters, people will use the same terms in
+different ways.  One person might use “information design” to refer to
+what another knows as “information architecture.” And what’s the
+difference between “interface design” and “interaction design?” Is there
+one?
+
+Evolution of the “Web”
+======================
+
+When the Web started, it was all about information.  People could create
+documents, and they could link them to other documents.  Tim
+Berners-Lee, the inventor of the Web, created it as a way for
+researchers in the high-energy physics community, who were spread out
+all over the world, to share and refer to each other’s findings.  He
+knew the Web had the potential to be much more than that, but few others
+really understood how great its potential was.
+
+   People originally seized on the Web as a new publishing medium, but
+as technology advanced and new features were added to Web browsers and
+Web servers alike, the Web took on new functional capabilities.  After
+the Web began to catch on in the larger Internet community, it developed
+a more complex and robust feature set that would enable Web sites not
+only to distribute information but to collect and manipulate it as well.
+With this, the Web became more interactive, responding to the input of
+users in ways that build upon and sometimes moved beyond traditional
+desktop applications.
+
+   With the advent of commercial interests on the Web, this application
+functionality found a wide range of uses, such as electronic commerce,
+social media, and financial services, among others.  Meanwhile, the Web
+continued to flourish as a publishing medium, with countless newspapers
+and magazine sites augmenting the wave of Web-only blogs and “e-zines”
+being published.  Technology continued to advance on both fronts as all
+kinds of sites made the transition from static collections of
+information thtat changes infrequently to dynamic, database-driven sites
+that were constantly evolving.
+
+   When the Web user experience community started to form, its members
+spoke two different languages.  One group saw every problem as an
+application design problem, and applied problem-solving approaches from
+the traditional desktop and mainframe software worlds.  (These, in turn,
+were rooted in common practices applied to creating all kinds of
+products, from cars to running shoes.)  The other group saw the Web in
+terms of information distribution and retrieval, and applied
+problem-solving approaches from the traditional worlds of publishing,
+media, and information science.
+
+   This became quite a stumbling block.  Very little progress could be
+made when the community could not even agree on basic terminology.  The
+waters were further muddied by the fact that most Web sites could not be
+neatly categorized as either functional applications or information
+resources—a huge numnber seemed to be a sort of hybrid, incorporating
+qualities from each world.
+
+Duality of Purpose: Funtional vs Informational
+==============================================
+
+To address this basic duality in the nature of the Web, let’s split our
+five planes down the middle.  On the left, we’ll put those elements
+specific to the Web as a platform for *functionality*.  On the right,
+we’ll put the elements specific to the Web as an *information medium*.
+
+product as functionality      product as information       quality
+----------------------------------------------------------------------
+SURFACE                       SURFACE                      Concrete
+- Sensory Design              - Sensory Design
+SKELETON                      SKELETON                     ...
+- Information Design          - Information Design
+– Interface Design            – Navigation Design
+STRUCTURE                     STRUCTURE                    ...
+- Interaction Design          - Information Architecture
+SCOPE                         SCOPE                        ...
+- Functional Specifications   - Content Requirements
+STRATEGY                      STRATEGY                     ...
+- User Needs                  - User Needs
+- Product Objectives          - Product Objectives         Abstract
+
+Table 2.1: The Duality of Purpose: Function vs Information
+
+Functionality—Tasks
+-------------------
+
+On the functionality side, we are mainly concerned with *tasks*—the
+steps involved in a process and how people think about completing them.
+Here, we consider the product as a tool or set of tools that the user
+employs to accomplish one or more tasks.
+
+Information Offered to Users
+----------------------------
+
+On the opposite side, our concern is what *information* the product
+offers and what it means to our users.  Creating an information-rich
+user experience is about enabling people to find, absorb, and make sense
+of the information we provide.
+
+
+File: elements-user_exp.info,  Node: The Elements of User Experience,  Next: Using the Elements,  Prev: A Basic Duality,  Up: Meet the Elements
+
+2.4 The Elements of User Experience
+===================================
+
+Now we can map that whole confusing array of terms into the model.  By
+breaking each plane down into its component elements, we will be able to
+take a closer look at how all the pieces fit together in the course of
+designing the whole user experience.
+
+* Menu:
+
+* The Strategy Plane: The Strategy Plane 1.
+* The Scope Plane: The Scope Plane 1.
+* The Structure Plane: The Structure Plane 1.
+* The Skeleton Plane: The Skeleton Plane 1.
+* The Surface Plane: The Surface Plane 1.
+
+
+File: elements-user_exp.info,  Node: The Strategy Plane 1,  Next: The Scope Plane 1,  Up: The Elements of User Experience
+
+2.4.1 The Strategy Plane
+------------------------
+
+The same strategic concerns come into play for both
+functionality-oriented products and information-oriented resources.
+*User needs* are the goals for the site that come from outside our
+organization—specifically from the people who will use our site.  We
+must understand what our audience wants from us and how that fits in
+with other goals they have.
+
+   Balanced against user needs are our own objectives for the site.
+These *product objectives* can be business goals (“Make $1 million in
+sales over the Web this year”) or other kinds of goals (“Inform voters
+about the candidates in the next election”).  In Chapter 3 we will go
+into more detail about these elements.
+
+
+File: elements-user_exp.info,  Node: The Scope Plane 1,  Next: The Structure Plane 1,  Prev: The Strategy Plane 1,  Up: The Elements of User Experience
+
+2.4.2 The Scope Plane
+---------------------
+
+On the functionality side, the strategy is translated into scope through
+the creation of *functional specifications*: a detailed description of
+the “feature set” of the product.  On the information side, scope takes
+the form of *content requirements*: a description of the various
+elements that will be required.  Chapter 4 will cover the scope
+elements.
+
+
+File: elements-user_exp.info,  Node: The Structure Plane 1,  Next: The Skeleton Plane 1,  Prev: The Scope Plane 1,  Up: The Elements of User Experience
+
+2.4.3 The Structure Plane
+-------------------------
+
+The scope is given structure on the functionality side through
+*interaction design*, in which we define how the system behaves in
+response to the user.  For information resources, the structure is the
+*information architecture*: the arrangement of content elements to
+facilitate human understanding.  You’ll find more details on these in
+Chapter 5.
+
+
+File: elements-user_exp.info,  Node: The Skeleton Plane 1,  Next: The Surface Plane 1,  Prev: The Structure Plane 1,  Up: The Elements of User Experience
+
+2.4.4 The Skeleton Plane
+------------------------
+
+The skeleton plane breaks down into three components.  On both sides, we
+must address *information design*: the presentation of information in a
+way that facilitates understanding.  For functionality-oriented
+products, the skeleton also includes *interface design*, or arranging
+interface elements to enable users to interact with the functionality of
+the system.  The interface for an information resource is its
+*navigation design*: the set of screen elements that allow the user to
+move through the information architecture.  There’s more about the
+skeleton plane in Chapter 6.
+
+
+File: elements-user_exp.info,  Node: The Surface Plane 1,  Prev: The Skeleton Plane 1,  Up: The Elements of User Experience
+
+2.4.5 The Surface Plane
+-----------------------
+
+Finally we have the surface.  Regardless of whether we are dealing with
+a functionality-oriented product or an information resource, our concern
+here is the same: the *sensory experience* created by the finished
+product.  It’s trickier than it sounds; you can find out all about it in
+Chapter 7.
+
+
+File: elements-user_exp.info,  Node: Using the Elements,  Prev: The Elements of User Experience,  Up: Meet the Elements
+
+2.5 Using the Elements
+======================
+
+This model, divided up into neat boxes and planes, is a convenient way
+to think about user experience problems.  In reality, of course, the
+lines between these areas are not so clearly drawn.  Frequently, it can
+be difficult to identify whether a particular user experience problem is
+best solved through attention to one element instead of another.  Can a
+change to the visuals do the trick, or will the underlying navigation
+design have to be reworked?  Some problems require attention in several
+areas at once, and some seem to straddle the borders identified in this
+model.
+
+   Few produces or services fall exclusively on one side of this model
+or the other.  Within each plane, the elements must work together to
+accomplish that plane’s goals.  Separating the effects of decisions you
+make about one element from all other elements on the plane is
+difficult.  For example, information design, navigation design, and
+interface design jointly define the skeleton of a product.  All the
+elements on every plane have a common functionality in determining the
+larger user experience—in this case, defining the product’s
+skeleton—even if they perform that function in different ways.
+
+   The way organizations delegate responsibility for user experience
+issues often complicates matters further.  In some organizations, you
+will encounter people with job titles like _information architect_ or
+_interface designer_.  Don’t be confused by this.  These people
+generally have expertise spanning many of the elements of user
+experience, not just the specialty indicated by their title.  It’s not
+necessary to have a member of your team who is a specialist in each of
+these areas; instead, you only have to ensure that someone spends at
+least part of their time thinking about each of these issues.
+
+Content and Technology Affecting User Experience
+================================================
+
+A couple of additional factors go into shaping the final user experience
+that you won’t find covered in detail here.  The first is *content*.
+The old saying (well, old in Web years) is that “content is king” on the
+Web.  This is absolutely true—the single most important thing most Web
+sites can offer to their users is content that those users will find
+valuable.
+
+   Users don’t visit Web sites to experience the joy of navigation.  The
+content that is available to you (or that you have resources to obtain
+and manage) will play a huge role in shaping your site.  In the case of
+an online store, you might decide that you want the users to be able to
+see cover images of all the books you sell.  If you can get them, will
+you have a way to catalog them, keep track of them, and keep them up to
+date?  And what if you can’t get photos of the book covers at all?
+These content questions are essential to the ultimate user experience of
+the site.
+
+   Second, *technology* can be just as important as content in creating
+a successful user experience.  In many cases, the nature of the
+experience you provide your users is largely determined by technology.
+In the early days of the Web, the tools to connect Web sites to
+databases were fairly primitive and limited.  As the technology has
+advanced, however, databases have become more widely used to drive Web
+sites.  This in turn has enabled more and more sophisticated user
+experience approaches, such as dynamic navigation systems that change in
+response to the way users move through the site.  Technology is always
+changing, and the field of user experience always has to adapty to it.
+Nevertheless, the fundamental elements of user experience remain the
+same.
+
+Elements Apply Universally
+==========================
+
+Although the author developed the Elements model in the course of his
+work on Web sites, others have since applied it to a wide range of
+products and services.  If you work on the Web, everything in this book
+applies to you.  If you work on other kinds of technology products, you
+will see strong parallels to familiar considerations.  Even if you work
+on products or services that have nothing to do with technology, you can
+map these concepts to your own processes.
+
+   The rest of this book looks at these elements, plane by plane, in
+greater detail.  We’ll take a closer look at some of the tools and
+techniques commonly used to address each element.  Along the way, we’ll
+see how these elements come into play in products that aren’t Web sites
+at all.  We’ll see what the elements on each plane have in common, what
+makes each one different, and how they affect each other to help us
+create the total user experience.
+
+
+File: elements-user_exp.info,  Node: The Strategy Plane 2,  Next: The Scope Plane 2,  Prev: Meet the Elements,  Up: Top
 
 3 The Strategy Plane
 ********************
 
 
-File: elements-user_exp.info,  Node: The Scope Plane,  Next: The Structure Plane,  Prev: The Strategy Plane,  Up: Top
+File: elements-user_exp.info,  Node: The Scope Plane 2,  Next: The Structure Plane 2,  Prev: The Strategy Plane 2,  Up: Top
 
 4 The Scope Plane
 *****************
 
 
-File: elements-user_exp.info,  Node: The Structure Plane,  Next: The Skeleton Plane,  Prev: The Scope Plane,  Up: Top
+File: elements-user_exp.info,  Node: The Structure Plane 2,  Next: The Skeleton Plane 2,  Prev: The Scope Plane 2,  Up: Top
 
 5 The Structure Plane
 *********************
 
 
-File: elements-user_exp.info,  Node: The Skeleton Plane,  Next: The Surface Plane,  Prev: The Structure Plane,  Up: Top
+File: elements-user_exp.info,  Node: The Skeleton Plane 2,  Next: The Surface Plane 2,  Prev: The Structure Plane 2,  Up: Top
 
 6 The Skeleton Plane
 ********************
 
 
-File: elements-user_exp.info,  Node: The Surface Plane,  Next: The Elements Applied,  Prev: The Skeleton Plane,  Up: Top
+File: elements-user_exp.info,  Node: The Surface Plane 2,  Next: The Elements Applied,  Prev: The Skeleton Plane 2,  Up: Top
 
 7 The Surface Plane
 *******************
 
 
-File: elements-user_exp.info,  Node: The Elements Applied,  Next: INDEX,  Prev: The Surface Plane,  Up: Top
+File: elements-user_exp.info,  Node: The Elements Applied,  Next: INDEX,  Prev: The Surface Plane 2,  Up: Top
 
 8 The Elements Applied
 **********************
 
 
-File: elements-user_exp.info,  Node: INDEX,  Prev: The Elements Applied,  Up: Top
+File: elements-user_exp.info,  Node: INDEX,  Next: TABLES,  Prev: The Elements Applied,  Up: Top
 
 INDEX
 *****
@@ -487,103 +983,255 @@ INDEX
  [index ]
 * Menu:
 
+* abstractness:                          Building From Bottom To Top.
+                                                              (line  19)
 * acknowledge user experience:           User Experience and the Web.
-                                                               (line 32)
+                                                              (line  32)
 * aesthetic appeal:                      From Product Design to User Experience Design.
-                                                               (line  6)
+                                                              (line   6)
+* application design problem:            A Basic Duality.     (line  55)
+* architecture, information:             The Structure Plane 1.
+                                                              (line   6)
 * behavior:                              From Product Design to User Experience Design.
-                                                               (line 29)
+                                                              (line  29)
+* behavior of system, defined:           The Structure Plane 1.
+                                                              (line   6)
+* Berners-Lee, Tim:                      A Basic Duality.     (line  27)
+* buzzwords:                             A Basic Duality.     (line  15)
 * complex products, user experience independent: Designing (for) Experience---Use Matters.
-                                                               (line 15)
+                                                              (line  15)
+* concreteness:                          Building From Bottom To Top.
+                                                              (line  19)
+* consequences of failure of dependence: Building From Bottom To Top.
+                                                              (line  31)
+* content:                               Using the Elements.  (line  39)
 * content and functionality glut:        User Experience and the Web.
-                                                               (line 49)
+                                                              (line  49)
+* content requirements, informational:   The Scope Plane 1.   (line   6)
 * content, information:                  Good User Exerience is Good Business.
-                                                               (line  6)
+                                                              (line   6)
 * context:                               From Product Design to User Experience Design.
-                                                               (line 38)
+                                                              (line  38)
 * conversion rate, ROI:                  Good User Exerience is Good Business.
-                                                               (line 39)
-* decisions, consciously made:           Minding Your Users.   (line 12)
+                                                              (line  39)
+* decisions affect user experience:      The Five Planes.     (line  14)
+* decisions, consciously made:           Minding Your Users.  (line  15)
+* dependence between planes:             Building From Bottom To Top.
+                                                              (line  31)
+* dependencies, both directions:         Building From Bottom To Top.
+                                                              (line  44)
+* design process, conscious effort:      Meet the Elements.   (line   6)
 * design, product vs user experience:    Designing (for) Experience---Use Matters.
-                                                               (line  6)
+                                                              (line   6)
+* duality, function vs information:      A Basic Duality.     (line  75)
 * efficiency, increase:                  Good User Exerience is Good Business.
-                                                               (line 48)
+                                                              (line  48)
+* feature set:                           The Scope Plane 1.   (line   6)
+* finished product, user experience:     The Surface Plane 1. (line   6)
 * form follows function:                 From Product Design to User Experience Design.
-                                                               (line 29)
+                                                              (line  29)
+* framework, conceptual, user experience: Building From Bottom To Top.
+                                                              (line  13)
+* function vs information duality:       A Basic Duality.     (line  75)
 * functional design:                     From Product Design to User Experience Design.
-                                                               (line 12)
+                                                              (line  12)
+* functional specifications:             The Scope Plane 1.   (line   6)
+* functionality, interacting with:       The Skeleton Plane 1.
+                                                              (line   6)
+* goals for site, from owners:           The Strategy Plane 1.
+                                                              (line  13)
+* goals for site, from users:            The Strategy Plane 1.
+                                                              (line   6)
+* hybrid web sites:                      A Basic Duality.     (line  65)
+* information architecture:              A Basic Duality.     (line   6)
+* information architecture <1>:          The Structure Plane 1.
+                                                              (line   6)
+* information architecture, moving through: The Skeleton Plane 1.
+                                                              (line   6)
+* information design:                    A Basic Duality.     (line   6)
+* information design <1>:                The Skeleton Plane 1.
+                                                              (line   6)
+* information distribution and retrieval: A Basic Duality.    (line  55)
+* information science, user experience:  A Basic Duality.     (line  55)
+* information, the Web:                  A Basic Duality.     (line  27)
 * informationm, content:                 Good User Exerience is Good Business.
-                                                               (line  6)
+                                                              (line   6)
+* interaction design:                    A Basic Duality.     (line   6)
+* interaction design, functional:        The Structure Plane 1.
+                                                              (line   6)
+* interface design, functional:          The Skeleton Plane 1.
+                                                              (line   6)
 * loyalty:                               Good User Exerience is Good Business.
-                                                               (line 21)
+                                                              (line  21)
 * mistakes, make fewer:                  Good User Exerience is Good Business.
-                                                               (line 48)
+                                                              (line  48)
 * more features:                         User Experience and the Web.
-                                                               (line 49)
+                                                              (line  49)
+* navigation design, informational:      The Skeleton Plane 1.
+                                                              (line   6)
+* plane, scope:                          The Scope Plane.     (line   6)
+* plane, scope <1>:                      The Scope Plane 1.   (line   6)
+* plane, skeleton:                       The Skeleton Plane.  (line   6)
+* plane, skeleton <1>:                   The Skeleton Plane 1.
+                                                              (line   6)
+* plane, strategy:                       The Strategy Plane.  (line   6)
+* plane, strategy <1>:                   The Strategy Plane 1.
+                                                              (line   6)
+* plane, structure:                      The Structure Plane. (line   6)
+* plane, structure <1>:                  The Structure Plane 1.
+                                                              (line   6)
+* plane, surface:                        The Surface Plane.   (line   6)
+* plane, surface <1>:                    The Surface Plane 1. (line   6)
+* planes, five:                          The Five Planes.     (line   6)
+* problem-solving approaches, user experience: A Basic Duality.
+                                                              (line  55)
+* product as information:                A Basic Duality.     (line 108)
+* product as tool, task-oriented:        A Basic Duality.     (line 100)
 * product design:                        From Product Design to User Experience Design.
-                                                               (line  6)
+                                                              (line   6)
+* product objectives:                    The Strategy Plane 1.
+                                                              (line  13)
 * psychology:                            From Product Design to User Experience Design.
-                                                               (line 29)
+                                                              (line  29)
 * quality user experience:               User Experience and the Web.
-                                                               (line 61)
+                                                              (line  61)
+* responsibility for user experience, delegation: Using the Elements.
+                                                              (line  26)
 * return on investment:                  Good User Exerience is Good Business.
-                                                               (line 30)
+                                                              (line  30)
 * ROI:                                   Good User Exerience is Good Business.
-                                                               (line 30)
+                                                              (line  30)
+* scope plane:                           The Scope Plane.     (line   6)
+* scope plane <1>:                       The Scope Plane 1.   (line   6)
 * self-service product, Web site:        User Experience and the Web.
-                                                               (line 25)
+                                                              (line  25)
+* sensory experience:                    The Surface Plane 1. (line   6)
 * simple cases, user experience built-in: Designing (for) Experience---Use Matters.
-                                                               (line 11)
+                                                              (line  11)
+* skeleton plane:                        The Skeleton Plane.  (line   6)
+* skeleton plane <1>:                    The Skeleton Plane 1.
+                                                              (line   6)
+* specifications, functional:            The Scope Plane 1.   (line   6)
+* strategy plane:                        The Strategy Plane.  (line   6)
+* strategy plane <1>:                    The Strategy Plane 1.
+                                                              (line   6)
+* structure plane:                       The Structure Plane. (line   6)
+* structure plane <1>:                   The Structure Plane 1.
+                                                              (line   6)
+* stumbling block, failure of agreement, terminology: A Basic Duality.
+                                                              (line  65)
+* surface plane:                         The Surface Plane.   (line   6)
+* surface plane <1>:                     The Surface Plane 1. (line   6)
+* tasks, functionality:                  A Basic Duality.     (line 100)
+* technology:                            Using the Elements.  (line  56)
+* terminology, stumbling block, failure of agreement: A Basic Duality.
+                                                              (line  65)
+* tools:                                 Building From Bottom To Top.
+                                                              (line  13)
+* tools for task completion:             A Basic Duality.     (line 100)
+* understanding, arrangent of content elements to facilitate: The Structure Plane 1.
+                                                              (line   6)
+* user expectations, understanding:      Meet the Elements.   (line   6)
+* user experience conceptual framework:  Building From Bottom To Top.
+                                                              (line  13)
+* user experience design process:        Meet the Elements.   (line   6)
 * user experience design questions:      From Product Design to User Experience Design.
-                                                               (line 38)
+                                                              (line  38)
 * user experience design, complex products: Designing (for) Experience---Use Matters.
-                                                               (line 18)
+                                                              (line  18)
+* user experience model:                 Using the Elements.  (line   6)
+* user experience, component elements:   Meet the Elements.   (line  12)
+* user experience, design decisions affecting: The Five Planes.
+                                                              (line  14)
+* user experience, difficulty identifying problems: Using the Elements.
+                                                              (line   6)
 * user experience, feeling stupid:       User Experience and the Web.
-                                                               (line 15)
+                                                              (line  15)
+* user experience, information-rich:     A Basic Duality.     (line 108)
 * user experience, introduction:         Introducing User Experience.
-                                                               (line 12)
+                                                              (line  12)
+* user experience, layers:               The Five Planes.     (line  19)
+* user experience, multiple terms:       A Basic Duality.     (line   6)
 * user experience, neglected:            User Experience and the Web.
-                                                               (line 39)
+                                                              (line  39)
 * user experience, Web site:             User Experience and the Web.
-                                                               (line 11)
-* user-centered design:                  Minding Your Users.   (line  6)
+                                                              (line  11)
+* user needs:                            The Strategy Plane 1.
+                                                              (line   6)
+* user-centered design:                  Minding Your Users.  (line   9)
 * user-facing:                           From Product Design to User Experience Design.
-                                                               (line 29)
+                                                              (line  29)
 * value for company:                     Good User Exerience is Good Business.
-                                                               (line 30)
+                                                              (line  30)
 * Web application:                       Good User Exerience is Good Business.
-                                                               (line 16)
+                                                              (line  16)
 * Web site as product:                   User Experience and the Web.
-                                                               (line  6)
+                                                              (line   6)
 * Web site user experience:              User Experience and the Web.
-                                                               (line 11)
+                                                              (line  11)
 * Web site, self-service product:        User Experience and the Web.
-                                                               (line 25)
+                                                              (line  25)
+* web sites, hybrid between functional and informational: A Basic Duality.
+                                                              (line  65)
+* Web, as publishing medium:             A Basic Duality.     (line  35)
+* Web, commercial interests:             A Basic Duality.     (line  45)
+* Web, history:                          A Basic Duality.     (line  27)
+* Web, interactive:                      A Basic Duality.     (line  35)
+* Web, new functionality:                A Basic Duality.     (line  35)
+* Web, user experience, formation, two languages: A Basic Duality.
+                                                              (line  55)
+
+
+File: elements-user_exp.info,  Node: TABLES,  Prev: INDEX,  Up: Top
+
+TABLES
+******
+
+* Menu:
+
+* Table 2.1: orgd78e694.                 The Duality of Purpose: ...
 
 
 
 Tag Table:
 Node: Top342
-Node: Introduction1259
-Node: About the Author1486
-Node: To the Second Edition2063
-Node: To the First Edition2998
-Node: User Experience and Why It Matters4065
-Node: Everyday Miseries4679
-Node: Introducing User Experience4924
-Node: From Product Design to User Experience Design7254
-Node: Designing (for) Experience---Use Matters10051
-Node: User Experience and the Web11392
-Node: Good User Exerience is Good Business15141
-Node: Minding Your Users18497
-Node: Meet the Elements20017
-Node: The Strategy Plane20196
-Node: The Scope Plane20358
-Node: The Structure Plane20516
-Node: The Skeleton Plane20682
-Node: The Surface Plane20848
-Node: The Elements Applied21013
-Node: INDEX21171
+Node: Introduction1901
+Node: About the Author2128
+Node: To the Second Edition2705
+Node: To the First Edition3640
+Node: User Experience and Why It Matters4707
+Node: Everyday Miseries5321
+Node: Introducing User Experience5566
+Node: From Product Design to User Experience Design7896
+Node: Designing (for) Experience---Use Matters10693
+Node: User Experience and the Web12034
+Node: Good User Exerience is Good Business15783
+Node: Minding Your Users19139
+Node: Meet the Elements20702
+Node: The Five Planes21507
+Node: The Surface Plane22446
+Node: The Skeleton Plane22923
+Node: The Structure Plane23420
+Node: The Scope Plane24065
+Node: The Strategy Plane24651
+Node: Building From Bottom To Top25263
+Node: A Basic Duality28161
+Ref: orgd78e69432201
+Node: The Elements of User Experience33691
+Node: The Strategy Plane 134388
+Node: The Scope Plane 135247
+Node: The Structure Plane 135807
+Node: The Skeleton Plane 136367
+Node: The Surface Plane 137159
+Node: Using the Elements37634
+Node: The Strategy Plane 242424
+Node: The Scope Plane 242590
+Node: The Structure Plane 242754
+Node: The Skeleton Plane 242926
+Node: The Surface Plane 243098
+Node: The Elements Applied43267
+Node: INDEX43427
+Node: TABLES57932
 
 End Tag Table
 

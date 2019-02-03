@@ -2,9 +2,9 @@
 
 #+TITLE: Outline of /The Elements of User Experience/
 #+SUBTITLE: User-Centered Design for the Web and Beyond (2nd Edition)
-#+AUTHOR: Jess James Garrett
+#+AUTHOR: Jesse James Garrett
 #+CREATOR: WLHarvey4
-#+DATE: <2019-01-11 Fri 13:48>
+#+DATE: <2019-02-02 Sat 21:41>
 
 #+TEXINFO: @insertcopying
 
@@ -356,6 +356,463 @@
    experience that is cohesive, intuitive, and maybe even pleasurable---an
    experience in which everything works the way it should.
 * Meet the Elements
+
+  #+CINDEX:user experience design process
+  #+CINDEX:design process, conscious effort
+  #+CINDEX:user expectations, understanding
+  The user experience design process is all about ensuring that no aspect of
+  the user's experience with your product happens without your conscious,
+  explicit intent.  This means taking into account every possibility of every
+  action the user is likely to take and understanding the user's expectations
+  at every step of the way through that process.
+
+  #+CINDEX:user experience, component elements
+  By breaking the job of crafting user experience down into its component
+  elements, we can better understand the task as a whole.
+
+** The Five Planes
+
+   #+CINDEX:planes, five
+   Purchasing a physical product over the Web.  The experience is the same
+   every time:
+
+   - go to the site
+   - find the item (search engine or browsing a catalog)
+   - give your credit card number, address
+   - site confirms that the product will be shipped to you
+
+
+   #+CINDEX:decisions affect user experience
+   #+CINDEX:user experience, design decisions affecting
+   That neat, tidy experience actually results from a whole set of
+   decisions---some small, some large---about how the site looks, how it
+   behaves, and what it allows you to do.  These decisions build upon each
+   other, informing and invluencing all aspects of the user experience.
+
+   #+CINDEX:user experience, layers
+   If we peel away the layers of that experience, we can begin to understand
+   how those decisions are made.
+
+*** The Surface Plane
+
+    #+CINDEX:surface plane
+    #+CINDEX:plane, surface
+    On the *surface* you see a series of Web pages, made up of images and
+    text.  Some of these images are things you can click on, performing some
+    sort of function such as taking you to a shopping cart.  Some of these
+    images are just illustrations, such as a photograph of a product for sale
+    or the logo of the site itself.
+
+*** The Skeleton Plane
+
+    #+CINDEX:skeleton plane
+    #+CINDEX:plane, skeleton
+    Beneath that surface is the *skeleton* of the site: the placement of
+    buttons, controls, photos, and blocks of text.  The skeleton is designed to
+    optimize the arrangement of these elements for maximum effet and
+    efficiency---so that you remember the logo and can find that shopping cart
+    button when you need it.
+
+*** The Structure Plane
+
+    #+CINDEX:structure plane
+    #+CINDEX:plane, structure
+    The skeleton is a concrete expression of the more abstract *structure* of
+    the site.  The skeleton might define the placement of the interface
+    elements on our checkout page; the structure would define how users got to
+    that page and where they could go when they were finished there.  The
+    skeleton might define the arrangement of navigational elements allowing the
+    users to browse categories of products; the structure would define what
+    those categories were.
+
+*** The Scope Plane
+
+    #+CINDEX:scope plane
+    #+CINDEX:plane, scope
+    The structure defines the way in which the various features and functions
+    of the site fit together.  Just what those features and functions
+    are constitutes the *scope* of the site.  For example, some commerce sites
+    offer a feature that enables users to save previously used shipping
+    addresses so they can be used again.  Whether that feature---or any
+    feature---is included on a site is a question of scope.
+
+*** The Strategy Plane
+
+    #+CINDEX:strategy plane
+    #+CINDEX:plane, strategy
+    The scope is fundamentally determined by the *strategy* of the site.  This
+    strategy incorporates not only what the people running the site want to get
+    out of it but what the users want to get out of the site as well.  In the
+    case of our store example, some of the strategic objectives are pretty
+    obvious---such as the the role that advertising or content produced by our
+    users plays in our business model, for example---might not be so easy to
+    articulate.
+
+** Building From Bottom To Top
+
+   These five planes:
+   1. strategy
+   2. scope
+   3. structure
+   4. skeleton
+   5. surface
+
+
+   #+CINDEX:framework, conceptual, user experience
+   #+CINDEX:user experience conceptual framework
+   #+CINDEX:tools
+   {{{noindent}}}provide a conceptual framework for talking about user
+   experience problems and the tools we use to solve them.
+
+   {{{heading(Levels of Abstractness to Concretness)}}}
+
+   #+CINDEX:abstractness
+   #+CINDEX:concreteness
+   On each plane, the issues we must deal with become a little less abstract
+   and a little more concrete.  On the lowest plane, we are not concerned with
+   the final shape of the site, product, or service at all---we only care about
+   how the site will fit into our strategy (while meeting the needs of our
+   users).  On the highest planem, we are only concerned with the most concrete
+   details of the appearance of the product.  Plane by plane, the decisions we
+   have to make become a little more specific and involve finer levels of
+   detail.
+
+   {{{heading(Interdependency Between Planes)}}}
+
+   #+CINDEX:dependence between planes
+   #+CINDEX:consequences of failure of dependence
+   Each plane is dependent on the planes below it.  So, the surface depends on
+   the skeleton which depends on the structure, whihc depends on the scope,
+   which depends on the strategy.  When the choices we make don't align with
+   those above and below, projects derail, deadlines are missed, and the costs
+   begin to skyrocket as the development team tries to piece together
+   components that don't naturally fit.  Even worse, when the product finally
+   does launch, users often hate it, because it doesn't deliver a satisfying
+   experience.  This dependence means that decisions on the strategy plane will
+   have a sort of ``ripple effect'' all the way up the chain.  Conversely, the
+   choices available to use on each plane are constrained by the decisions we
+   make about issues on the planes below it.
+
+   #+CINDEX:dependencies, both directions
+   That does not mean, however, that every decision about a lower plane must be
+   made before the plane above it can be addressed.  Dependencies run in both
+   directions, with decisions made on upper planes sometimes forcing a
+   reevaluation (or an evaluation made for the first time!) of issues on lower
+   planes.  At each level, we make decisions according to what the competition
+   is doing, industry best practices, what we know about our users, and plain
+   old common sense.  These decisions can have a ripple effect in both
+   directions.
+
+   If you consider your decisions on lower planes to be set in stone before you
+   take on your first decisions in higher planes, you will almost certainly be
+   throwing your project schedule---and possible the success of your final
+   product---into jeopardy.
+
+   Instead, you should plan your project so that work on any plane cannot
+   /finish/ before work on lower planes has finished.  The important
+   consideration here is to not build the roof of the house before you know the
+   shape of the foundation.
+
+** A Basic Duality
+
+   #+CINDEX:user experience, multiple terms
+   #+CINDEX:interaction design
+   #+CINDEX:information design
+   #+CINDEX:information architecture
+   Of course, there are more than just five elements of user experience, and as
+   with any specialized field, this one has evolved a vocabulary all its own.
+   To someone encountering the field for the first time, user experience can
+   appear to be a complicated business.  All these seemingly identical terms
+   are thrown around:
+   - interaction design
+   - information design
+   - information architecture
+
+
+   #+CINDEX:buzzwords
+   {{{noindent}}}What do they mean?  Anything?  Or are they just more
+   meaningless industry buzzwords?
+
+   To further complicate matters, people will use the same terms in different
+   ways.  One person might use ``information design'' to refer to what another
+   knows as ``information architecture.''  And what's the difference between
+   ``interface design'' and ``interaction design?''  Is there one?
+
+   {{{heading(Evolution of the ``Web'')}}}
+
+   #+CINDEX:Web, history
+   #+CINDEX:information, the Web
+   #+CINDEX:Berners-Lee, Tim
+   When the Web started, it was all about information.  People could create
+   documents, and they could link them to other documents.  Tim Berners-Lee,
+   the inventor of the Web, created it as a way for researchers in the
+   high-energy physics community, who were spread out all over the world, to
+   share and refer to each other's findings.  He knew the Web had the potential
+   to be much more than that, but few others really understood how great its
+   potential was.
+
+   #+CINDEX:Web, as publishing medium
+   #+CINDEX:Web, new functionality
+   #+CINDEX:Web, interactive
+   People originally seized on the Web as a new publishing medium, but as
+   technology advanced and new features were added to Web browsers and Web
+   servers alike, the Web took on new functional capabilities.  After the Web
+   began to catch on in the larger Internet community, it developed a more
+   complex and robust feature set that would enable Web sites not only to
+   distribute information but to collect and manipulate it as well.  With this,
+   the Web became more interactive, responding to the input of users in ways
+   that build upon and sometimes moved beyond traditional desktop applications.
+
+   #+CINDEX:Web, commercial interests
+   With the advent of commercial interests on the Web, this application
+   functionality found a wide range of uses, such as electronic commerce,
+   social media, and financial services, among others.  Meanwhile, the Web
+   continued to flourish as a publishing medium, with countless newspapers and
+   magazine sites augmenting the wave of Web-only blogs and ``e-zines'' being
+   published.  Technology continued to advance on both fronts as all kinds of
+   sites made the transition from static collections of information thtat
+   changes infrequently to dynamic, database-driven sites that were constantly
+   evolving.
+
+   #+CINDEX:Web, user experience, formation, two languages
+   #+CINDEX:application design problem
+   #+CINDEX:problem-solving approaches, user experience
+   #+CINDEX:information distribution and retrieval
+   #+CINDEX:information science, user experience
+   When the Web user experience community started to form, its members spoke
+   two different languages.  One group saw every problem as an application
+   design problem, and applied problem-solving approaches from the traditional
+   desktop and mainframe software worlds.  (These, in turn, were rooted in
+   common practices applied to creating all kinds of products, from cars to
+   running shoes.)  The other group saw the Web in terms of information
+   distribution and retrieval, and applied problem-solving approaches from the
+   traditional worlds of publishing, media, and information science.
+
+   #+CINDEX:stumbling block, failure of agreement, terminology
+   #+CINDEX:terminology, stumbling block, failure of agreement
+   #+CINDEX:web sites, hybrid between functional and informational
+   #+CINDEX:hybrid web sites
+   This became quite a stumbling block.  Very little progress could be made
+   when the community could not even agree on basic terminology.  The waters
+   were further muddied by the fact that most Web sites could not be neatly
+   categorized as either functional applications or information resources---a
+   huge numnber seemed to be a sort of hybrid, incorporating qualities from
+   each world.
+
+   {{{heading(Duality of Purpose: Funtional vs Informational)}}}
+
+   #+CINDEX:duality, function vs information
+   #+CINDEX:function vs information duality
+   To address this basic duality in the nature of the Web, let's split our five
+   planes down the middle.  On the left, we'll put those elements specific to
+   the Web as a platform for *functionality*.  On the right, we'll put the
+   elements specific to the Web as an *information medium*.
+
+   #+NAME:tab:duality
+   #+CAPTION:The Duality of Purpose: Function vs Information
+   | product as functionality    | product as information     | quality  |
+   |-----------------------------+----------------------------+----------|
+   | SURFACE                     | SURFACE                    | Concrete |
+   | - Sensory Design            | - Sensory Design           |          |
+   | SKELETON                    | SKELETON                   | ...      |
+   | - Information Design        | - Information Design       |          |
+   | -- Interface Design         | -- Navigation Design       |          |
+   | STRUCTURE                   | STRUCTURE                  | ...      |
+   | - Interaction Design        | - Information Architecture |          |
+   | SCOPE                       | SCOPE                      | ...      |
+   | - Functional Specifications | - Content Requirements     |          |
+   | STRATEGY                    | STRATEGY                   | ...      |
+   | - User Needs                | - User Needs               |          |
+   | - Product Objectives        | - Product Objectives       | Abstract |
+   |-----------------------------+----------------------------+----------|
+
+   {{{subheading(Functionality---Tasks)}}}
+
+   #+CINDEX:tasks, functionality
+   #+CINDEX:product as tool, task-oriented
+   #+CINDEX:tools for task completion
+   On the functionality side, we are mainly concerned with *tasks*---the steps
+   involved in a process and how people think about completing them.  Here, we
+   consider the product as a tool or set of tools that the user employs to
+   accomplish one or more tasks.
+
+   {{{subheading(Information Offered to Users)}}}
+
+   #+CINDEX:product as information
+   #+CINDEX:user experience, information-rich
+   On the opposite side, our concern is what *information* the product offers
+   and what it means to our users.  Creating an information-rich user
+   experience is about enabling people to find, absorb, and make sense of the
+   information we provide.
+
+** The Elements of User Experience
+
+   Now we can map that whole confusing array of terms into the model.  By
+   breaking each plane down into its component elements, we will be able to
+   take a closer look at how all the pieces fit together in the course of
+   designing the whole user experience.
+
+*** The Strategy Plane
+
+    #+CINDEX:strategy plane
+    #+CINDEX:plane, strategy
+    #+CINDEX:user needs
+    #+CINDEX:goals for site, from users
+    The same strategic concerns come into play for both functionality-oriented
+    products and information-oriented resources.  *User needs* are the goals
+    for the site that come from outside our organization---specifically from
+    the people who will use our site.  We must understand what our audience
+    wants from us and how that fits in with other goals they have.
+
+    #+CINDEX:product objectives
+    #+CINDEX:goals for site, from owners
+    Balanced against user needs are our own objectives for the site.  These
+    *product objectives* can be business goals (``Make $1 million in sales over
+    the Web this year'') or other kinds of goals (``Inform voters about the
+    candidates in the next election'').  In Chapter 3 we will go into more
+    detail about these elements.
+
+*** The Scope Plane
+
+    #+CINDEX:scope plane
+    #+CINDEX:plane, scope
+    #+CINDEX:functional specifications
+    #+CINDEX:specifications, functional
+    #+CINDEX:feature set
+    #+CINDEX:content requirements, informational
+    On the functionality side, the strategy is translated into scope through
+    the creation of *functional specifications*: a detailed description of the
+    ``feature set'' of the product.  On the information side, scope takes the
+    form of *content requirements*: a description of the various elements that
+    will be required.  Chapter 4 will cover the scope elements.
+
+*** The Structure Plane
+
+    #+CINDEX:structure plane
+    #+CINDEX:plane, structure
+    #+CINDEX:interaction design, functional
+    #+CINDEX:behavior of system, defined
+    #+CINDEX:information architecture
+    #+CINDEX:architecture, information
+    #+CINDEX:understanding, arrangent of content elements to facilitate
+    The scope is given structure on the functionality side through *interaction
+    design*, in which we define how the system behaves in response to the
+    user.  For information resources, the structure is the *information
+    architecture*: the arrangement of content elements to facilitate human
+    understanding.  You'll find more details on these in Chapter 5.
+
+*** The Skeleton Plane
+
+    #+CINDEX:skeleton plane
+    #+CINDEX:plane, skeleton
+    #+CINDEX:information design
+    #+CINDEX:interface design, functional
+    #+CINDEX:functionality, interacting with
+    #+CINDEX:navigation design, informational
+    #+CINDEX:information architecture, moving through
+    The skeleton plane breaks down into three components.  On both sides, we
+    must address *information design*: the presentation of information in a way
+    that facilitates understanding.  For functionality-oriented products, the
+    skeleton also includes *interface design*, or arranging interface elements
+    to enable users to interact with the functionality of the system.  The
+    interface for an information resource is its *navigation design*: the set
+    of screen elements that allow the user to move through the information
+    architecture.  There's more about the skeleton plane in Chapter 6.
+
+*** The Surface Plane
+
+    #+CINDEX:surface plane
+    #+CINDEX:plane, surface
+    #+CINDEX:sensory experience
+    #+CINDEX:finished product, user experience
+    Finally we have the surface.  Regardless of whether we are dealing with a
+    functionality-oriented product or an information resource, our concern here
+    is the same: the *sensory experience* created by the finished product.
+    It's trickier than it sounds; you can find out all about it in Chapter 7.
+
+** Using the Elements
+
+   #+CINDEX:user experience, difficulty identifying problems
+   #+CINDEX:user experience model
+   This model, divided up into neat boxes and planes, is a convenient way to
+   think about user experience problems.  In reality, of course, the lines
+   between these areas are not so clearly drawn.  Frequently, it can be
+   difficult to identify whether a particular user experience problem is best
+   solved through attention to one element instead of another.  Can a change to
+   the visuals do the trick, or will the underlying navigation design have to
+   be reworked?  Some problems require attention in several areas at once, and
+   some seem to straddle the borders identified in this model.
+
+   Few produces or services fall exclusively on one side of this model or the
+   other.  Within each plane, the elements must work together to accomplish
+   that plane's goals.  Separating the effects of decisions you make about one
+   element from all other elements on the plane is difficult.  For example,
+   information design, navigation design, and interface design jointly define
+   the skeleton of a product.  All the elements on every plane have a common
+   functionality in determining the larger user experience---in this case,
+   defining the product's skeleton---even if they perform that function in
+   different ways.
+
+   #+CINDEX:responsibility for user experience, delegation
+   The way organizations delegate responsibility for user experience issues
+   often complicates matters further.  In some organizations, you will
+   encounter people with job titles like /information architect/ or /interface
+   designer/.  Don't be confused by this.  These people generally have
+   expertise spanning many of the elements of user experience, not just the
+   specialty indicated by their title.  It's not necessary to have a member of
+   your team who is a specialist in each of these areas; instead, you only have
+   to ensure that someone spends at least part of their time thinking about
+   each of these issues.
+
+   {{{heading(Content and Technology Affecting User Experience)}}}
+
+   #+CINDEX:content
+   A couple of additional factors go into shaping the final user experience
+   that  you won't find covered in detail here.  The first is *content*.  The
+   old saying (well, old in Web years) is that ``content is king'' on the Web.
+   This is absolutely true---the single most important thing most Web sites can
+   offer to their users is content that those users will find valuable.
+
+   Users don't visit Web sites to experience the joy of navigation.  The
+   content that is available to you (or that you have resources to obtain and
+   manage) will play a huge role in shaping your site.  In the case of an
+   online store, you might decide that you want the users to be able to see
+   cover images of all the books you sell.  If you can get them, will you have
+   a way to catalog them, keep track of them, and keep them up to date?  And
+   what if you can't get photos of the book covers at all?  These content
+   questions are essential to the ultimate user experience of the site.
+
+   #+CINDEX:technology
+   Second, *technology* can be just as important as content in creating a
+   successful user experience.  In many cases, the nature of the experience you
+   provide your users is largely determined by technology.  In the early days
+   of the Web, the tools to connect Web sites to databases were fairly
+   primitive and limited.  As the technology has advanced, however, databases
+   have become more widely used to drive Web sites.  This in turn has enabled
+   more and more sophisticated user experience approaches, such as dynamic
+   navigation systems that change in response to the way users move through the
+   site.  Technology is always changing, and the field of user experience
+   always has to adapty to it.  Nevertheless, the fundamental elements of user
+   experience remain the same.
+
+   {{{heading(Elements Apply Universally)}}}
+
+   Although the author developed the Elements model in the course of his work
+   on Web sites, others have since applied it to a wide range of products and
+   services.  If you work on the Web, everything in this book applies to you.
+   If you work on other kinds of technology products, you will see strong
+   parallels to familiar considerations.  Even if you work on products or
+   services that have nothing to do with technology, you can map these concepts
+   to your own processes.
+
+   The rest of this book looks at these elements, plane by plane, in greater
+   detail.  We'll take a closer look at some of the tools and techniques
+   commonly used to address each element.  Along the way, we'll see how these
+   elements come into play in products that aren't Web sites at all.  We'll see
+   what the elements on each plane have in common, what makes each one
+   different, and how they affect each other to help us create the total user
+   experience.
+
 * The Strategy Plane
 * The Scope Plane
 * The Structure Plane
@@ -366,6 +823,11 @@
   :PROPERTIES:
   :INDEX:    cp
   :END:
+* TABLES
+  :PROPERTIES:
+  :UNNUMBERED:
+  :END:
+  #+TEXINFO: @listoffloats Table
 * COPYING
   :PROPERTIES:
   :COPYING:  t
@@ -382,5 +844,6 @@
 #+TEXINFO_DIR_TITLE: Elements of User Experience
 #+TEXINFO_DIR_DESC: User-Centered design for the web
 * MACRO DEFINITIONS                                                :noexport:
-  #+MACRO: heading @@texinfo:@heading @@
-  #+MACRO: subheading @@texinfo:@subheading @@
+  #+MACRO: heading @@texinfo:@heading $1@@
+  #+MACRO: subheading @@texinfo:@subheading $1@@
+  #+MACRO: noindent @@texinfo:@noindent @@
