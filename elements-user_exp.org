@@ -4,7 +4,7 @@
 #+SUBTITLE: User-Centered Design for the Web and Beyond (2nd Edition)
 #+AUTHOR: Jesse James Garrett
 #+CREATOR: WLHarvey4
-#+DATE: <2019-02-03 Sun 08:21>
+#+DATE: <2019-02-04 Mon 12:18>
 
 #+TEXINFO: @insertcopying
 
@@ -1371,6 +1371,556 @@
 ** Team Roles and Process
 
 * The Scope Plane
+
+  {{{heading(Functional Specifications and Content Requirements)}}}
+
+  #+CINDEX:requirements, specific
+  #+CINDEX:user needs
+  #+CINDEX:product objectives
+  With a clear sense of what we want and what our users want, we can figure out
+  how to satisfy all those strategic objectives.  Strategy becomes scope when
+  you translate user needs and product objectives into specific requirements
+  for what content and functionality the product will offer to users.
+
+** Defining the Scope
+
+   We do some things because /there's value in the process/, like jogging or
+   practicing scales on the piano.  We do other things because /there's value
+   in the product/, like making a cheesecake or fixing a car.  *Defining the
+   scope* of your project is both: a /valuable process/ that results in a
+   /valuable product/.
+
+   The *process* is vauable because it forces you to address potential
+   conflicts and rough spots in the product while the whole thing is still
+   hypothetical.  We can identify what we can tackle now and what will have to
+   wait until later.
+
+   The *product* is valuable because it gives the entire team a reference point
+   for all the work to be done throughout the project and a common language for
+   talking about that work.  /Defining your requirements/ drives ambiguity out
+   of the design process.
+
+
+*** Why Define Requirements
+
+   There are two main reasons to both to define requirements
+
+**** Reason #1: So You Know What You Are Building
+
+     If you clearly articulate exactly what you are setting out to build,
+     everyone will know what the project's goals are and when they have been
+     reached.  The final product stops being an amorphous picture in the
+     product manager's head, and it becomes something concrete that everyone at
+     every level of the organization, from top executives to entry-level
+     engineers, can work with.
+
+     In the absence of clear requirements, your project will probably turn out
+     like a schoolyard game of ``Telephone''---each person on the team gets an
+     impression of the product via word of mouth, and everyone's description
+     ends up slightly different.  Or even worse, everyone assumes someone else
+     is managing the design and development of some crucial aspect of the
+     product, when in fact no one is.
+
+     Having a defined set of requirements allows you to parcel out
+     responsibility for the work more efficiently.  Seeing the entire scope
+     mapped out enables you to see connections between individual requirements
+     that might not otherwise be apparent.  For example, in earlyi discussions,
+     the support documentation and the product spec sheets may have seemed like
+     separate content featuress, but defining them as requirements might make
+     it apparent that there's a lot of overlap and that the same group should
+     be responsible for both.
+
+**** Reason #2: So You Know What You Are Not Building
+
+     Lots of features sound like good ideas, but they don't necessarily align
+     with the strategic objectives of the project.  Additionally, all sorts of
+     possibilities for features emerge after the project is well underway.
+     Having a clearly identified requirements provides you with a framework for
+     evaluating those ideas as they come along, helping you understand how (of
+     if) they fit into what you've already committed to build.
+
+     Knowing what you are not building also means knowing what you are not
+     building /right now/.  The real value in collecting all those great ideas
+     comes from finding appropriate ways to fit them into your long-term
+     plans.  By establishing concrete sets of requirements, and stockpiling
+     requests that don't fit as possibilities for future releases, you can
+     manage the entire process in a more deliberate way.
+
+     If you don't consciously manage your requirements, you will caught in the
+     dreaded ``scope creep''.  The image this always brings to mind is the
+     snowball that rolls forward an inch---and then another---picking up a
+     little extra snow with each turn until it is barreling down the hill,
+     getting bigger and harder to stop all the way down.  Likewise, each
+     additional requirement may not seem like that much extra work.  But put
+     them all together, and you've got a project rolling away out of control,
+     crushing deadlines and budget estimates on its way toward inevitable final
+     crash.
+
+     #+BEGIN_cartouch
+     Requirements that cannot be met in the current schedule can form the basis
+     for the next milestone in the development cycle.
+     #+END_cartouche
+
+** Functionality and Content
+
+   On the scope plane, we start from the abstract question of ``Why are we
+   making this product?'' that we dealt with in the strategy plane, and build
+   upon it with a new question: ``What are we going to make?''
+
+   The split betwen the Web as a vehicle for functionality and the Web as an
+   information medium starts coming into play on the scope plane.  On the
+   *functionality* side, we are concerned with what would be considered the
+   feature set of the software product.  On the *information* side, we are
+   dealing with content, the traditional domain of editorial and marketing
+   communications groups.
+
+   Content and functionality seem just about as different as two things could
+   bu, but when it comes to defining scope, they can be addressed in very
+   similar ways.  The term /feature/ will refer to both software functions, and
+   content offerings.
+
+   In software development, the scope is defined through functional
+   requirements or *functional specifications*.  Some organizations use these
+   terms to mean two different documents:
+   - requirements at the beginning of the project to describe what the system
+     should do; and
+   - specifications at the end to describe what it actually does.
+
+
+   In other cases, the specifictions are developed soon after the requirements,
+   filling in details of implementation.  But most of the time, these termns
+   are interchangeable---in fact, some people use the term /functional
+   requirements specification/ just to make sure they've covered all the
+   bases.  The author will use
+   - /functional specifications/  ::
+
+       to refer to the document itself, and
+
+   - /requirements/ ::
+
+       to refer to its contents.
+
+
+   The language of this chapter is mostly the language of software
+   development.  But the concepts here apply equally to content.  Content
+   development often involves a less formal requirements-definition process
+   than software does, but the underlying principles are the same.  A content
+   developer will sit down and talk with people or pore over source material,
+   whether that be a database or a drawer full of news clippings, in order to
+   determine what information needs to be included in the content that is being
+   developed.  This process for defining *content requirements* is actually not
+   all that different from the technical brainstorming features with
+   stakeholders and reviewing existing documentation.  The purposes and
+   approaches are the same.
+
+   Content requirements often have functional implications.  These days, pure
+   content sites are handled through a *content management system (CMS)*.
+   These systems come in all shapes and sizes, from very large and complex
+   systems that dynamically generate pages from a dozen different data sources
+   to lightweight tools optimized for managing one specific type of content
+   feature in the most efficient way.  You might decide to purchase a propriety
+   content management system, use one of the many open-source alternatives, or
+   even build one from scratch.  In any cases, it will take some tinkering to
+   tailor the system to your organization and your content.
+
+   The functionality you need in your content management system will depend on
+   the nature of the content you will be managing.  Will you be maintaining
+   content in multiple languages or data formats?  The CMS will need to be able
+   to handle all those kinds of content elements.  Does every press release
+   need to be approved by six executive vice predidents and a lawyer?  The CMS
+   will need to support that kind of approval workflow.  Will content elements
+   be dynamically recombined according to the preferences of each user, or the
+   device they are using?  The CMS will need to be able to accomplish that
+   level of complex delivery.
+
+   Similarly, the functional requirements of any technology produce have
+   content implications.  Will there be instructions on the preference
+   configuration screen?  How about error messages?  Somebody has to write
+   those.  Every time I see an error message on a Web site like ``Null input
+   field exception,'' I know some engineer's placeholder message made it into
+   the final product because nobody made that error message a content
+   requirement.  Countless allegedly technical projects could have been
+   improved immeasurably if the developers had simply taken the time to have
+   someone look at the application with an eye toward content.
+
+** Defining Requirements
+
+   Some requirements apply the product as a whole.  Branding requirements are
+   one common example of this; certain technical requirements, such as
+   supported browsers and operating systems, are another.
+
+   Other requirements apply only to a specific feature.  Most of the time when
+   people refer to a requirement, they are thinking of a short description of a
+   single feature the product is required to have.
+
+   The level of detail in your requirements will often depend on the specific
+   scope of the project.  if the goal of the project is to implement one very
+   complex subsystem, a very high level of detail might be needed, even though
+   the scope of the project relative to the larger site might be quite small.
+   Conversely, a very large-scall content project might involve such
+   homogeneous base of content (such as a large number of functionally
+   identical PDFs of product manuals) that the content requirements can only be
+   very general.
+
+   The  most productive source for requirements will always be your users
+   themselves.  But more often, your requirements will come from stakeholders,
+   people in your organization who have some say over what goes into your
+   product.
+
+   In either case, the bast way to find out what people want is simply to ask
+   them.  The user research techniques outline in Chapter 3 can all be used to
+   help you get a better understanding of the kinds of features users want to
+   see in your product.
+
+   Whether you are defining requirements with help from stakeholders inside
+   your organization or working directly with users, the requirements that come
+   out of the process will fall into three general categories.
+
+   1. The things people say they want.  Some of these are very clearly good
+      ides, and will find their way into the final product.
+
+   2. Sometimes the things people say they want are not the things they
+      /actually/ want.  It's not uncommon for anyone, when they encounter some
+      difficulty with a process or a product, to imagine a solution.  Sometimes
+      that solution is unworkable, or it addresses a symptom rather than the
+      underlying cause of the problem.  By exploring these suggestions, you can
+      sometimes arrive at completely different requirements that solve the real
+      problem.
+
+   3. The feature poeple don't know they want.  When you get people talking
+      about strategic objectives and new requirements that might fulfill them,
+      sometimes they will hit upon great ideas that simply hadn't occurred to
+      anyone during the ongoing maintenance of the product.  These often come
+      out of brainstorming exercises, when participants have a chance to talk
+      through and explore the possibilities for the project.
+
+
+   Ironically, sometimes the people most deeply involved in creating and
+   working with a product are the ones least able to imagine new directions for
+   it.  When you spend all your time immersed in maintaining an existing
+   product, you can often forget which of your constraints are real, and which
+   are simply products of historical choices.  For this reason, group
+   brainstorming sessions that bring together people from diverse parts of the
+   organization or represent diverse user groups can be very effective tools in
+   opening the minds of participants to possibilities they wouldn't have
+   considered before.
+
+   Getting an engineer, a customer service agent, and a marketing person in a
+   room together to talk about the same Web site can be enlightening for
+   everyone.  Hearing unfamiliar perspectives---and having the opportunity to
+   respond to them---encourages people to think in broader terms about both the
+   problems involved in developing the product and the possible solutions.
+
+   Whatever device we are designing for---or if we are designing the device
+   itself---our feature set will need to take into account hardware
+   requirements, too.  Does the device have a camera?  GPS?  Gyroscopic
+   position sensers?  These considerations will inform and constrain your
+   functional possibilities.
+
+   Generating requirements is often a matter of finding ways to remove
+   impediments.  For example, assume that you have a user who has already
+   decided to purchase a product---they just haven't decided if your product is
+   the one they will buy.  What can your site do to make this process---first
+   selecting your product, and then buying your product---easier for them?
+
+   In Chapter 3, we looked at the technique of creating fictional characters
+   called personas to help us better understand user needs.  In determining
+   requirements, we can use those personas again by putting our fictional
+   characters into little stories called {{{dfn(scenarios)}}}.  A scenario is a
+   short, simple narrative describing how a persona might go about trying to
+   fulfill one of those user needs.  By imagining the process our users might
+   go through, we can come up with potential requirements to help meet those
+   needs.
+
+   We can also look to our competitors for inspiration.  Anyone else in the
+   same business is almost certainly trying to meet the same user needs and is
+   probably trying to accomplish similar product objectives as well.  Has a
+   competitor found a particular effective feature to meet one of these
+   strategic objectives?  How have they addressed the same trade-offs and
+   compromises we face?
+
+   Even products that aren't direct competitors can serve as fertile sources
+   for possible requirements.  Some gaming platforms, for example, offer users
+   the ability to create social groups of fellow players.  Adopting or building
+   on their approach when scoping a similar feature for our digital video
+   recorder may give us an advantage over our direct competition.
+
+** Functional Specifications
+
+   Functional specifications have something of a bad reputation in certain
+   quarters.  Programmers often hate specs because they tend to be terribly
+   dull, and the time spent reading them is time taken away from producing
+   code.  As a result, specs go unread, which in turn reinforces the impression
+   that producing them is a waste of time---because it is!  A bad approach to
+   specs becomes a self-fulfilling prophecy.
+
+   One complaint about functional specifications is that they don't reflec the
+   actual product.  Things change during implementation.  Everybodey
+   understands this---it's the nature of working with technology.  Sometimes
+   something you thought would work didn't, or more likely didn't quite work
+   the way you thought it would.  This, however, is not a reason to abandon
+   writing specs as a lost cause.  Instead, it highlights the importance of
+   specs that actually work.  When things change during implementation, the
+   answer is not to throw up your hands and declare the futility of writing
+   specs.  The answer is to make the process of defining specifications
+   lightweight enough that the spec doesn't become a project separate from
+   developing the product itself.
+
+   In other words, documentation won't solve your problems.  Definition will.
+   It's not about volume or detail.  It's about clarity and accuracy.  Specs
+   don't have to embody every aspect of the product---just the ones that need
+   definition to avoid confusion in the design and development process.  And
+   specs don't need to capture some idealized future state for the
+   product---just the decisions that have been made in the course of creating
+   it.
+
+*** Writing It Down
+
+    No matter how large or complex the project may be, a few general rules
+    apply to writing any kind of requirements.
+
+    - Be positive ::
+
+                     Instead of describing a bad thing the system should not
+                     do, describe what it will do to prevent that bad thing.
+                     For example, instead of this:
+
+                     /The system will not allow the user to purchase a kit
+                     without kit string./
+
+                     This would be better:
+
+                     /The system will direct the user to the kite string page
+                     if the user tries to buy a kite without string./
+
+    - Be specific ::
+
+                     Leaving as little as possible open to interpretation is
+                     the only way we can determine whether a requirement has
+                     been fulfilled.
+
+                     Compare these examples:
+
+      1. The most popular videos will be highlighted.
+
+      2. Videos with the most views in the last week will appear at the top of
+         the list.
+
+         The first example seems to identify a clear requirementk but it does
+         nto take much investigation to start poking holes in it.  What counts
+         as popular?  Videos with the most comments?  The ones with the most
+         ``like'' votes?  And what constitutes highlighting them?
+
+         The second example defines our goal in specific detail, defining what
+         we mean by popular and describing a mechanism for highlighting.  By
+         removing the possibility of differing interpretations, the second
+         requirement neatly skirts the kinds of arguments likely to crop up
+         during or after implementation.
+
+    - Avoid subjective language ::
+
+         This is really just another way of being specific and removing
+         ambiguity---and therefore the possibilitity for
+         misinterpretation---from the requirements.
+
+         Here's a highly subjective requirement:
+
+         /The site will have a hip, flashy style./
+
+         Requirements must be falsifiable---that is, it must be possible to
+         demonstrate when a requirement has not been met.  It's difficult to
+         demonstrate whether subjective qualities like hop and flashy have been
+         fulfilled.
+
+         This doesn't mean you can't require that your site be hip.  You just
+         have to find ways to specify which criteria will be applied.
+
+         /The site will meet the hipness expectations of Wayne, the mail
+         clerk./
+
+         Wayne normally wouldn't have any say about the project, but our
+         project sponsor clearly respects his sense of hipness.  Hopefully it's
+         the same sense our uses have.  But the requirement is still rather
+         arbitrary because we are relying on Wayne's approval instead of
+         criteria that can be more objectively defined.  So perhaps this
+         requirement would be best of all:
+
+         /The look of the site will conform to the company branding guidelines
+         document./
+
+         The whole concept of hipness has now disappeared entirely from the
+         requirements.  Instead we have a clear, unambiguous reference to
+         established guidelines.  To make sure the branding guidelines are
+         sufficiently hip, the VIP of marketing may consult Wayne the mail
+         clerk, or she may consult her teenage daughter, or she may even
+         consult some user research findings.  It's up to her.  But now we can
+         say definitively whether the requirements has been met.
+
+         We can also eliminate subjectivity by defining some requirements
+         quantitatevly.  Just as success metrics make strategic goals
+         quantifiable, defining a requirement in quantitative terms can help us
+         identify whether we have met the requirement.  For example, instead of
+         requiring taht the system have ``a high level of performance,'' we can
+         require that the system be designed to support at least 1,000
+         simultaneous users.  If the final product only allows three-digit user
+         numbers, we can tell the requirements has not been met.
+
+** Content Requirements
+
+   Much of the time, when we talk about content, we are referring to text.  But
+   images, audo, and video can be more important than the accompanying text.
+   These different content types can also work together to fulfill a single
+   requirement.  For example, a content feature covering a sporting even might
+   have an article accompanied by photographs and video clips.  Identifying all
+   the content types associated with a feature can help you determine what
+   resource will be needed to produce the content (or whether it can be
+   produced at all).
+
+   Don't get confused between the /format/ of a piece of content and its
+   /purpose/.  When discussing content requirements with stakeholders, one of
+   the first things I usually hear is, ``We should have FAQs.''  But the term
+   /FAQ/ really only refers to a content format: a simple series of questions
+   and answers.  The real value of an FAQ to users is that it provides ready
+   access to commonly needed information.  Other content requirements can
+   fulfill that same purpose; but when the focus is on the format, the purpose
+   itself can be forgotten.  More often than not, FAQs neglect the
+   ``frequently'' part of the equation, offering instead answers to whatever
+   questions the content provider could think of to satisfy the FAQ
+   requirement.
+
+   The expected size of each of your content features has a huge influence on
+   the user experience decisions you will have to make.  Your content
+   requirements should provide rought estimates of the size of each feature:
+   word count for text features, pixel dimensions for images or video, and file
+   sizes for downloadabl, stand-alone content elements like audio files or PDF
+   documents.  These size estimates don't have to be precise---approximations
+   are fine.  We only have to collect the essential information needed to
+   design an appropriate vehicle for that content.  Designing a site to provide
+   access to small thumbnail images is different from designing a site to
+   provide access to full-screen photographs; knowing in advance the size of
+   the content elements we have to accommodate enables us to make smart,
+   informed decisions along the way.
+
+   It's important to identifty who will be responsible for each content element
+   as early as possible.  Once it has been validated against our strategic
+   objectives, any content feature inevitably sounds like a really good
+   idea---as long as someone else responsible for creating and maintaining it.
+   We we get too deep into the development process without identifying who will
+   be responsible for every required content feature, we're likely to end up
+   with gaping holes in our site because those features everybody loved when
+   they were hypothetical turned out to be too much work for anyone to actually
+   take on.
+
+   And that's what people often forget when developing requirements:  Content
+   is hard work.  You might be able to hire on contract resources (or, more
+   likely, stick someone down in marketing with the job) to create the content
+   in time for the initial launch, but who will keep it up to date?
+   Content---well, effective content, anyway---requires constant maintenance.
+   Approaching content as if you can post it and forget it leads to a site
+   that, over time, does an increasingly poor job of meeting user needs.
+
+   This is why, for every content feature, you should identify how frequently
+   it will be updated.  The frequency of updates should be derived from your
+   strategic goals for the site: Based on your product objectives, how often do
+   you want users to come back?  Based on the needs of your users, how often do
+   they expect updated information?  Howevber, keep in mind that the ideal
+   frequency of updates for your users (``I want to know everything instantly,
+   24 hours a day!'') may not be practical for your organization.  You'll have
+   to arrive at a frequency that represents a reasonable compromise between the
+   expectations of your users and your available resources.
+
+   If your site has to serve multiple audiences with divergent needs, knowing
+   which audience a piece of content is intended for can help you make better
+   decisions about how to present that content.  Information intended for
+   children requires a different approach from information intended for
+   parents; information for both of them needs yet a third approach.
+
+   For projects that involve working with a lot of existing content, much of
+   the information that will feed your requirements is recorded in a
+   {{{dfn(content inventory)}}}.  Taking an inventory of all the content on
+   your existing site may seem like a tedious process---and it usually is.  But
+   having the inventory (which usually takes the form of a simple, albeit very
+   large, spreadsheet) is important for the same reason that having concrete
+   requirements is important: so everyone on the team knows exactly what they
+   have to work with in creating the user experience.
+
+** Prioritizing Requirements
+
+   Collecting ideas for possible requirements is not hard.  Almost everyone who
+   regularly comes in contact with a product---whether they are inside the
+   organization or outside---will have at least one idea for a feature that
+   could be added.  The tricky part is sorting out what features should be
+   included in the scope for your project.
+
+   It's actually fairly rare that you see a simple one-to-one correlation
+   between your strategic objectives and your requirements.  Sometimes one
+   requirement can be applied toward multiple strategic objectives.  Similarly,
+   one objective will often be associated with several different requirements,.
+
+   Because the scope is built upon the strategy, we'll need to evaluate
+   possible requirements based on whether they fulfill our strategic goals
+   (both product objectives and user needs).  In addition to those two
+   considerations, defining the scope adds a third: How feasible will it be to
+   actually make this stuff?
+
+   Some features can't be implemented because they are technically
+   impossible---for example, there's just no way to allow users to smell
+   products over the Web yet, no matter how badly they might want that
+   ability.  Other features (particularly in the case of content) aren't
+   feasible because they would demand more resources---human or
+   financial---then we have at our disposal.  In other cases, it's just a
+   matter of time: The feature would take three months to implement, but we
+   have an executive requirement to launch in two.
+
+   In the case of time constaints, you can push features out to a later releae
+   or project milestone.  For resource constraints, technological or
+   organizational changes can sometimes---but, importantly, not always---reduce
+   the resource burden, enabling a feature to be implemented.
+
+   Few features exist in a vacuum.  Even content features on a Web site rely on
+   the features around them to inform the user on how best to use the content
+   provided.  This inevitably leads to conflicts between features.  Some
+   features will require trade-offs with others in order to produce a coherent,
+   consiste whole.  For example, users may want a one-step order submission
+   process---but the tangle of legacy databases the site uses can't accommodate
+   all the data at once.  Is it preferable to go with a multiple-step process,
+   or should you rework the database system?  It depends on your strategic
+   objectives.
+
+   Keep an eye out for feature suggestions that indicate possible shifts in
+   strategy that weren't apparent during the development of the vision
+   document.  Any feature suggestion not in line with the project is, by
+   definitionm, out of scope.  But if a suggested feature that falls outside
+   the scope doesn't fit any of the types of constraints above and still sounds
+   like a good idea, you may want to reexamine some of your strategic
+   objectives.  If you find yourself revisiting many aspects of your strategy,
+   however, you've probably jumped into defining requirements too soon.
+
+   If your strategy or vision document identifies a clear hierarchy of
+   priorities among your strategic objectives, these priorities should be the
+   primnary factors in determining the priority of suggested features.
+   Sometimes, however, the relative importance of two different strategic
+   objectives isn't clear.  In these cases, whether features end up in the
+   project scope all to often comes down to corporate politics.
+
+   When stakeholders talk about strategy, they usually start out with feature
+   ideas, and then have to be coaxed back to the underlying strategic factors,
+   Because stakeholders often have trouble separating features from strategy,
+   certain features will often have champions.  Thus, the requirements
+   definition process becomes a matter of negotiations between motivated
+   stakeholders.
+
+   Managing this negotiation process can be diffiult.  The best approach to
+   resolving a conflict between stakeholders is to appeal to the defined
+   strategy,.  Focus on strategic goals, not proposed means of accomplishing
+   them.  If you can assure a stakeholdder with her heart set on a particular
+   feature that the strategic goal the feature is intended to fulfill can be
+   addressed in some way, she won't feel the needs of her constituents are
+   being neglected.  Admittedly, this is often easier said than done.
+   Demonstrating empathy with the needs of stakeholders is essential to
+   resolving feature conflicts.
+
+
 * The Structure Plane
 * The Skeleton Plane
 * The Surface Plane
@@ -1403,3 +1953,4 @@
   #+MACRO: heading @@texinfo:@heading $1@@
   #+MACRO: subheading @@texinfo:@subheading $1@@
   #+MACRO: noindent @@texinfo:@noindent @@
+  #+MACRO: dfn @@texinfo:@dfn{@@$1@@texinfo:}@@
