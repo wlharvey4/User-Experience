@@ -4,7 +4,7 @@
 #+SUBTITLE: User-Centered Design for the Web and Beyond (2nd Edition)
 #+AUTHOR: Jesse James Garrett
 #+CREATOR: WLHarvey4
-#+DATE: <2019-02-04 Mon 12:18>
+#+DATE: <2019-02-05 Tue 12:34>
 
 #+TEXINFO: @insertcopying
 
@@ -1374,7 +1374,13 @@
 
   {{{heading(Functional Specifications and Content Requirements)}}}
 
+  #+CINDEX:scope plane
+  #+CINDEX:plane, scope
+  #+CINDEX:functional specifications
   #+CINDEX:requirements, specific
+  #+CINDEX:specifications, functional
+  #+CINDEX:content requirements
+  #+CINDEX:requirements, content
   #+CINDEX:user needs
   #+CINDEX:product objectives
   With a clear sense of what we want and what our users want, we can figure out
@@ -1384,29 +1390,39 @@
 
 ** Defining the Scope
 
+   #+CINDEX:scope, defining
+   #+CINDEX:process, value
+   #+CINDEX:product, value
    We do some things because /there's value in the process/, like jogging or
    practicing scales on the piano.  We do other things because /there's value
    in the product/, like making a cheesecake or fixing a car.  *Defining the
    scope* of your project is both: a /valuable process/ that results in a
    /valuable product/.
 
+   #+CINDEX:conflicts, potential
    The *process* is vauable because it forces you to address potential
    conflicts and rough spots in the product while the whole thing is still
    hypothetical.  We can identify what we can tackle now and what will have to
    wait until later.
 
+   #+CINDEX:reference point, for work
+   #+CINDEX:common language, for work
+   #+CINDEX:requirements, defining
+   #+CINDEX:ambiguity, design process
    The *product* is valuable because it gives the entire team a reference point
    for all the work to be done throughout the project and a common language for
    talking about that work.  /Defining your requirements/ drives ambiguity out
    of the design process.
 
-
 *** Why Define Requirements
 
-   There are two main reasons to both to define requirements
+    #+CINDEX:requirements, define
+    There are two main reasons to both to define requirements
 
 **** Reason #1: So You Know What You Are Building
 
+     #+CINDEX:goals, project
+     #+CINDEX:goals, reach
      If you clearly articulate exactly what you are setting out to build,
      everyone will know what the project's goals are and when they have been
      reached.  The final product stops being an amorphous picture in the
@@ -1414,6 +1430,7 @@
      every level of the organization, from top executives to entry-level
      engineers, can work with.
 
+     #+CINDEX:requirements, clear, absence of
      In the absence of clear requirements, your project will probably turn out
      like a schoolyard game of ``Telephone''---each person on the team gets an
      impression of the product via word of mouth, and everyone's description
@@ -1421,10 +1438,14 @@
      is managing the design and development of some crucial aspect of the
      product, when in fact no one is.
 
+     #+CINDEX:requirements, defined set of
+     #+CINDEX:responsibility, assign
+     #+CINDEX:scope, able to see
+     #+CINDEX:connections, individual requirements
      Having a defined set of requirements allows you to parcel out
      responsibility for the work more efficiently.  Seeing the entire scope
      mapped out enables you to see connections between individual requirements
-     that might not otherwise be apparent.  For example, in earlyi discussions,
+     that might not otherwise be apparent.  For example, in early discussions,
      the support documentation and the product spec sheets may have seemed like
      separate content featuress, but defining them as requirements might make
      it apparent that there's a lot of overlap and that the same group should
@@ -1432,6 +1453,9 @@
 
 **** Reason #2: So You Know What You Are Not Building
 
+     #+CINDEX:requirements, what not to build
+     #+CINDEX:ideas, framework for evaluating
+     #+CINDEX:features, fit in
      Lots of features sound like good ideas, but they don't necessarily align
      with the strategic objectives of the project.  Additionally, all sorts of
      possibilities for features emerge after the project is well underway.
@@ -1439,6 +1463,9 @@
      evaluating those ideas as they come along, helping you understand how (of
      if) they fit into what you've already committed to build.
 
+     #+CINDEX:plans, long term
+     #+CINDEX:future releases
+     #+CINDEX:releases, future
      Knowing what you are not building also means knowing what you are not
      building /right now/.  The real value in collecting all those great ideas
      comes from finding appropriate ways to fit them into your long-term
@@ -1446,6 +1473,8 @@
      requests that don't fit as possibilities for future releases, you can
      manage the entire process in a more deliberate way.
 
+     #+CINDEX:scope creep
+     #+CINDEX:project, out of control
      If you don't consciously manage your requirements, you will caught in the
      dreaded ``scope creep''.  The image this always brings to mind is the
      snowball that rolls forward an inch---and then another---picking up a
@@ -1463,10 +1492,14 @@
 
 ** Functionality and Content
 
+   #+CINDEX:questions, scope plane
    On the scope plane, we start from the abstract question of ``Why are we
    making this product?'' that we dealt with in the strategy plane, and build
    upon it with a new question: ``What are we going to make?''
 
+   #+CINDEX:Web, split between functionality and information, scope plane
+   #+CINDEX:product, feature set
+   #+CINDEX:product, content
    The split betwen the Web as a vehicle for functionality and the Web as an
    information medium starts coming into play on the scope plane.  On the
    *functionality* side, we are concerned with what would be considered the
@@ -1474,11 +1507,21 @@
    dealing with content, the traditional domain of editorial and marketing
    communications groups.
 
+   #+CINDEX:content and functionality, differences and similarities
+   #+CINDEX:scope, defining
+   #+CINDEX:feature, defining
+   #+CINDEX:software functions, as feature
+   #+CINDEX:content offerings, as feature
    Content and functionality seem just about as different as two things could
    bu, but when it comes to defining scope, they can be addressed in very
-   similar ways.  The term /feature/ will refer to both software functions, and
-   content offerings.
+   similar ways.  The term {{{dfn(feature)}}} will refer to both software
+   functions, and content offerings.
 
+   #+CINDEX:scope, defining, through functional requirements (specifications)
+   #+CINDEX:requirements document
+   #+CINDEX:specifications document
+   #+CINDEX:documents, requirements
+   #+CINDEX:documents, specifications
    In software development, the scope is defined through functional
    requirements or *functional specifications*.  Some organizations use these
    terms to mean two different documents:
@@ -1487,20 +1530,27 @@
    - specifications at the end to describe what it actually does.
 
 
+   #+CINDEX:functional requirements specification document
+   #+CINDEX:functional specifiction document
+   #+CINDEX:requirements document
    In other cases, the specifictions are developed soon after the requirements,
    filling in details of implementation.  But most of the time, these termns
-   are interchangeable---in fact, some people use the term /functional
-   requirements specification/ just to make sure they've covered all the
+   are interchangeable---in fact, some people use the term {{{dfn(functional
+   requirements specification)}}} just to make sure they've covered all the
    bases.  The author will use
-   - /functional specifications/  ::
+   - {{{dfn(functional specifications)}}}  ::
 
        to refer to the document itself, and
 
-   - /requirements/ ::
+   - {{{dfn(requirements)}}} ::
 
        to refer to its contents.
 
 
+   #+CINDEX:language, software development
+   #+CINDEX:language, content development
+   #+CINDEX:content requirements, process
+   #+CINDEX:content developer
    The language of this chapter is mostly the language of software
    development.  But the concepts here apply equally to content.  Content
    development often involves a less formal requirements-definition process
@@ -1513,6 +1563,10 @@
    stakeholders and reviewing existing documentation.  The purposes and
    approaches are the same.
 
+   #+CINDEX:content requirements, functional impications
+   #+CINDEX:content management system (CMS)
+   #+CINDEX:CMS, content management system
+   #+CINDEX:content, pure sites
    Content requirements often have functional implications.  These days, pure
    content sites are handled through a *content management system (CMS)*.
    These systems come in all shapes and sizes, from very large and complex
@@ -1523,6 +1577,7 @@
    even build one from scratch.  In any cases, it will take some tinkering to
    tailor the system to your organization and your content.
 
+   #+CINDEX:CMS, needed functionality
    The functionality you need in your content management system will depend on
    the nature of the content you will be managing.  Will you be maintaining
    content in multiple languages or data formats?  The CMS will need to be able
@@ -1533,6 +1588,7 @@
    device they are using?  The CMS will need to be able to accomplish that
    level of complex delivery.
 
+   #+CINDEX:functional requirements, content implications
    Similarly, the functional requirements of any technology produce have
    content implications.  Will there be instructions on the preference
    configuration screen?  How about error messages?  Somebody has to write
@@ -1545,34 +1601,42 @@
 
 ** Defining Requirements
 
+   #+CINDEX:requirements, branding
+   #+CINDEX:requirements, product as whole
    Some requirements apply the product as a whole.  Branding requirements are
    one common example of this; certain technical requirements, such as
    supported browsers and operating systems, are another.
 
+   #+CINDEX:requirements, specific feature
    Other requirements apply only to a specific feature.  Most of the time when
    people refer to a requirement, they are thinking of a short description of a
    single feature the product is required to have.
 
+   #+CINDEX:requirements, level of detail, scope
    The level of detail in your requirements will often depend on the specific
    scope of the project.  if the goal of the project is to implement one very
    complex subsystem, a very high level of detail might be needed, even though
    the scope of the project relative to the larger site might be quite small.
-   Conversely, a very large-scall content project might involve such
+   Conversely, a very large-scale content project might involve such
    homogeneous base of content (such as a large number of functionally
    identical PDFs of product manuals) that the content requirements can only be
    very general.
 
+   #+CINDEX:requirements, source of
+   #+CINDEX:requirements, from users
+   #+CINDEX:requirements, from stakeholders
    The  most productive source for requirements will always be your users
    themselves.  But more often, your requirements will come from stakeholders,
    people in your organization who have some say over what goes into your
    product.
 
+   #+CINDEX:user research techniques
    In either case, the bast way to find out what people want is simply to ask
-   them.  The user research techniques outline in Chapter 3 can all be used to
-   help you get a better understanding of the kinds of features users want to
-   see in your product.
+   them.  The user research techniques ([[*Usability and User Research%0A][outlined in Chapter 3]]) can all be used
+   to help you get a better understanding of the kinds of features users want
+   to see in your product.
 
-   Whether you are defining requirements with help from stakeholders inside
+   Whether you are 1604defining requirements with help from stakeholders inside
    your organization or working directly with users, the requirements that come
    out of the process will fall into three general categories.
 
@@ -1919,7 +1983,6 @@
    being neglected.  Admittedly, this is often easier said than done.
    Demonstrating empathy with the needs of stakeholders is essential to
    resolving feature conflicts.
-
 
 * The Structure Plane
 * The Skeleton Plane
